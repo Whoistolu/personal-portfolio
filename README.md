@@ -5,7 +5,7 @@
 
 This is my personal portfolio. 
 
-![screenshot](./image/)
+![screenshot](./images/portfolio-image.png)
 
 This is the first milestone for my personal portfolio project.
 It contains my project, resume and every other information about me.
