@@ -44,7 +44,6 @@ This project also contain two (2) branches for each section aside the main branc
 - Twitter: [@twitterhandle](https://twitter.com/Littletolu)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/toluwase-ajise-9b40411b2/)
 
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
