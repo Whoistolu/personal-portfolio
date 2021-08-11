@@ -9,7 +9,7 @@ nav {
   flex-direction: column;
   position: absolute;
   background-color: #3c3a39;
-  height: 92px;
+  height: 70px;
   width: 375px;
   color: #fff;
   justify-content: center;
@@ -19,7 +19,7 @@ ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  padding: 0 30px 0 30px;
+  padding: 0 20px 0 20px;
 }
 
 li {
@@ -33,4 +33,49 @@ li {
 a {
   text-decoration: none;
   color: #fff;
+}
+
+section {
+  background-color: #1c1a19;
+  width: 375px;
+  height: 670px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 9rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    
+}
+
+article,
+h1 {
+  color: #ff6b00;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+
+}
+
+article,
+h4 {
+  color: #fff5e1;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 32px;
+  font-style: normal;
+}
+
+article,
+h6 {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: popins;
+  font-style: normal;
+  font-weight: normal;
 }
