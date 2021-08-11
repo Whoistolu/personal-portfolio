@@ -35,7 +35,7 @@ a {
   color: #fff;
 }
 
-section {
+.main-section {
   background-color: #1c1a19;
   width: 375px;
   height: 670px;
@@ -51,7 +51,7 @@ section {
 }
 
 .headline,
-h1 {
+p {
   color: #ff6b00;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 56px;
