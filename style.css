@@ -92,10 +92,10 @@ a {
 
 .group-image {
   position: absolute;
-  left: 70.74%;
+  left: 89.74%;
   right: -0.09%;
   top: 55.3%;
   bottom: -11.63%;
   transform: matrix(-0.96, 0.1, 0.3, 66, 0, 0);
-  transform: rotate(16deg);
+  transform: rotate(1deg);
 }
