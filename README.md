@@ -26,9 +26,9 @@ This milestone consists of two (2) sections:
 
 
 ## To get a local copy run the following steps:
-- Copy this link [this link](https://github.com/Whoistolu/Hello-world-repository)
+- Copy this link [this link](https://github.com/Whoistolu/personal-portfolio/tree/created_toolbar)
 - Open your terminal or command line
-- Run "git clone Paste [this link](https://github.com/Whoistolu/Hello-world-repository)"
+- Run "git clone Paste [this link](https://github.com/Whoistolu/personal-portfolio/tree/created_toolbar)"
 - Open the folder with your code editor
 - Create a branch to work on
 - Now You can edit the code and do a pull request
