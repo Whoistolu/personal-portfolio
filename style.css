@@ -41,27 +41,25 @@ section {
   height: 670px;
 }
 
-article {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 9rem;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    
+.headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 9rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
-article,
+.headline,
 h1 {
   color: #ff6b00;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
-
 }
 
-article,
+.headline,
 h4 {
   color: #fff5e1;
   font-size: 24px;
@@ -70,7 +68,7 @@ h4 {
   font-style: normal;
 }
 
-article,
+.headline,
 h6 {
   color: #fff;
   font-size: 16px;
@@ -78,4 +76,13 @@ h6 {
   font-family: popins;
   font-style: normal;
   font-weight: normal;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin-left: 5%;
+    margin-top: 5%;
+
 }
