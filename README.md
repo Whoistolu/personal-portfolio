@@ -34,7 +34,6 @@ This project also contain two (2) branches for each section aside the main branc
 - Create a branch to work on
 - Now You can edit the code and do a pull request
 
-
 ## Authors
 
 👤 **Author1**
