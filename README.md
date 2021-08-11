@@ -14,8 +14,6 @@ This milestone consists of two (2) sections:
 1. The toolbar (or header)
 2. The headline section (right after the header)
 
-This project also contain two (2) branches for each section aside the main branch.
-
 ## Built With
 
 - HTML
