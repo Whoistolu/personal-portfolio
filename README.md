@@ -22,7 +22,7 @@ This milestone consists of two (2) sections:
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://tender-kowalevski-d3058d.netlify.app/)
 
 
 ## To get a local copy run the following steps:
