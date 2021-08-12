@@ -93,3 +93,56 @@ h6 {
 a {
   padding-left: 1rem;
 }
+
+.middle-button {
+  justify-content: flex-start;
+  margin-top: 5%;
+}
+
+.css-button {
+  border: 1px solid #8993A4;
+  box-sizing: border-box;
+  background: #FFF;
+  color: #091E42;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.html-button {
+  border: 1px solid #8993A4;
+  box-sizing: border-box;
+  background: #FFF;
+  color: #091E42;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.bootstrap-button {
+  border: 1px solid #8993A4;
+  box-sizing: border-box;
+  background: #FFF;
+  color: #091E42;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.ruby-button {
+  border: 1px solid #8993A4;
+  box-sizing: border-box;
+  background: #FFF;
+  color: #091E42;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
