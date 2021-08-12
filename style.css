@@ -94,7 +94,16 @@ a {
   padding-left: 1rem;
 }
 
-.middle-button {
+/***Milestone two (2) The middle part of the project**/
+
+.grid-container {
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 18vh;
+  padding: 18vh 4vw;
+}
+
+/* .middle-button {
   justify-content: flex-start;
   margin-top: 5%;
 }
@@ -145,4 +154,4 @@ a {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-}
+} */
