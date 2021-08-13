@@ -103,6 +103,40 @@ a {
   padding: 18vh 4vw;
 }
 
+.new_h1 {
+  color: #1C1A19;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 52px;
+  border-bottom: 1px solid black;
+  padding-bottom: 2.5rem;
+}
+
+.pic-2 {
+  padding-top: 4rem;
+}
+
+.new_h4 {
+  color: #091E42;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  padding: 1rem 0;
+}
+
+.new_p {
+  color: #091E42;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 .middle-button {
   display: flex;
   justify-content: flex-start;
@@ -187,3 +221,92 @@ a {
   margin-left: -1rem;
   padding: 0 0.7rem;
 }
+
+.grid-container2 {
+  background-image: url(/image/placeholder.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 18vh;
+  padding: 18vh 4vw;
+  margin-top: -10rem;
+}
+
+.third_h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.third_p {
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.middle-button2 {
+  display: flex;
+  justify-content: center;
+}
+
+.css-button2 {
+  border: 1px solid #8993A4;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.24);;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 3rem;
+  margin-left: -1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0 0.7rem;
+}
+
+.html-button2 {
+  border: 1px solid #8993A4;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.24);;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+  padding: 0 0.7rem;
+}
+
+.bootstrap-button2 {
+  border: 1px solid #8993A4;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.24);;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+  padding: 0 0.7rem;
+}
+
+
