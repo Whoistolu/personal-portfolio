@@ -211,6 +211,7 @@ a {
 .project-button {
   border: 1px solid #8993A4;
   box-sizing: border-box;
+  border: none;
   background: #FF6B00;
   color: #fff;
   font-family: 'Inter', sans-serif;
@@ -230,7 +231,7 @@ a {
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 18vh;
   padding: 18vh 4vw;
-  margin-top: -10rem;
+  margin-top: -11rem;
 }
 
 .third_h1 {
@@ -307,6 +308,21 @@ a {
   margin-bottom: 1rem;
   margin-left: 0.5rem;
   padding: 0 0.7rem;
+}
+
+.project-button2 {
+  width: 327px;
+  height: 48px;
+  background-color: #FF6B00;
+  color: #fff;
+  border: none;
+  margin-left: 0.19rem;
+  margin-top: 1.5rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  font-style: normal;
+  line-height: 24px;
 }
 
 
