@@ -325,4 +325,54 @@ a {
   line-height: 24px;
 }
 
+.about-me {
+  background-color: #1C1A19;
+  width: 375px;
+  height: 600px;
+  background-image: url(/image/Group2.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.about-section-h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 88px;
+  padding-top: 4rem;
+  padding-right: 1.6rem;
+  padding-left: 1.6rem;
+}
+
+.about-section-paragraph {
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F4F5F7;
+  padding: 0 2rem;
+}
+
+.about-section-button {
+  height: 48px;
+  background-color: #FF6B00;
+  color: #fff;
+  border: none;
+  margin-top: 1.5rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  font-style: normal;
+  line-height: 24px;
+  margin-left: 2rem;
+  padding: 1rem;
+}
+
+
 
