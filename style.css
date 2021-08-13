@@ -209,6 +209,7 @@ a {
 }
 
 .project-button {
+  cursor: pointer;
   border: 1px solid #8993A4;
   box-sizing: border-box;
   border: none;
@@ -222,6 +223,7 @@ a {
   margin-left: -1rem;
   padding: 0 0.7rem;
 }
+
 
 .grid-container2 {
   background-image: url(/image/placeholder.png);
@@ -311,6 +313,7 @@ a {
 }
 
 .project-button2 {
+  cursor: pointer;
   width: 327px;
   height: 48px;
   background-color: #FF6B00;
