@@ -94,7 +94,7 @@ a {
   padding-left: 1rem;
 }
 
-/***Milestone two (2) The middle part of the project**/
+/***  Milestone two (2) The middle part of the project  **/
 
 .grid-container {
   grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
@@ -104,7 +104,7 @@ a {
 }
 
 .new_h1 {
-  color: #1C1A19;
+  color: #1c1a19;
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: normal;
@@ -119,7 +119,7 @@ a {
 }
 
 .new_h4 {
-  color: #091E42;
+  color: #091e42;
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: normal;
@@ -129,7 +129,7 @@ a {
 }
 
 .new_p {
-  color: #091E42;
+  color: #091e42;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -141,14 +141,13 @@ a {
   display: flex;
   justify-content: flex-start;
   margin-top: 5%;
-
 }
 
 .css-button {
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   box-sizing: border-box;
-  background: #FFF;
-  color: #091E42;
+  background: #fff;
+  color: #091e42;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -161,10 +160,10 @@ a {
 }
 
 .html-button {
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   box-sizing: border-box;
-  background: #FFF;
-  color: #091E42;
+  background: #fff;
+  color: #091e42;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -177,10 +176,10 @@ a {
 }
 
 .bootstrap-button {
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   box-sizing: border-box;
-  background: #FFF;
-  color: #091E42;
+  background: #fff;
+  color: #091e42;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -193,10 +192,10 @@ a {
 }
 
 .ruby-button {
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   box-sizing: border-box;
-  background: #FFF;
-  color: #091E42;
+  background: #fff;
+  color: #091e42;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -210,10 +209,9 @@ a {
 
 .project-button {
   cursor: pointer;
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   box-sizing: border-box;
-  border: none;
-  background: #FF6B00;
+  background: #ff6b00;
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -223,7 +221,6 @@ a {
   margin-left: -1rem;
   padding: 0 0.7rem;
 }
-
 
 .grid-container2 {
   background-image: url(/image/placeholder.png);
@@ -265,9 +262,9 @@ a {
 }
 
 .css-button2 {
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   box-sizing: border-box;
-  background: rgba(255, 255, 255, 0.24);;
+  background: rgba(255, 255, 255, 0.24);
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -281,9 +278,9 @@ a {
 }
 
 .html-button2 {
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   box-sizing: border-box;
-  background: rgba(255, 255, 255, 0.24);;
+  background: rgba(255, 255, 255, 0.24);
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -297,9 +294,9 @@ a {
 }
 
 .bootstrap-button2 {
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   box-sizing: border-box;
-  background: rgba(255, 255, 255, 0.24);;
+  background: rgba(255, 255, 255, 0.24);
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -316,7 +313,7 @@ a {
   cursor: pointer;
   width: 327px;
   height: 48px;
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   color: #fff;
   border: none;
   margin-left: 0.19rem;
@@ -329,7 +326,7 @@ a {
 }
 
 .about-me {
-  background-color: #1C1A19;
+  background-color: #1c1a19;
   width: 375px;
   height: 600px;
   background-image: url(/image/Group2.png);
@@ -346,7 +343,7 @@ a {
 }
 
 .ignore {
-  color: #1C1A19;
+  color: #1c1a19;
 }
 
 .about-section-h1 {
@@ -370,13 +367,13 @@ a {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #F4F5F7;
+  color: #f4f5f7;
   padding: 0 2rem;
 }
 
 .about-section-button {
   height: 48px;
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   color: #fff;
   border: none;
   margin-top: 1.5rem;
@@ -390,7 +387,7 @@ a {
 }
 
 .aboutme-container2 {
-  background-color: #1C1A19;
+  background-color: #1c1a19;
   width: 375px;
   height: 1400px;
   padding-top: 8rem;
@@ -453,7 +450,7 @@ a {
   font-size: 10px;
   line-height: 43px;
   color: #fff;
-  padding-top: 2rem; 
+  padding-top: 2rem;
 }
 
 .svg3-language {
@@ -485,5 +482,5 @@ a {
   font-size: 10px;
   line-height: 43px;
   color: #fff;
-  padding-top: 2rem; 
+  padding-top: 2rem;
 }
