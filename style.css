@@ -334,6 +334,18 @@ a {
   background-position: 100% 100%;
 }
 
+.line-1 {
+  height: 1px;
+  width: 300px;
+  background-color: #fff;
+  margin-left: 2rem;
+  margin-top: -5rem;
+}
+
+.ignore {
+  color: #1C1A19;
+}
+
 .about-section-h1 {
   display: flex;
   justify-content: center;
@@ -377,8 +389,8 @@ a {
 .aboutme-container2 {
   background-color: #1C1A19;
   width: 375px;
-  height: 1200px;
-  padding-top: 6rem;
+  height: 1400px;
+  padding-top: 8rem;
 }
 
 .svg-language {
