@@ -93,3 +93,354 @@ h6 {
 a {
   padding-left: 1rem;
 }
+
+.first-box {
+  display: flex;
+  flex-flow: column wrap;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.projectimg {
+  margin-top: 2rem;
+}
+
+.work-h1 {
+  margin-left: 1rem;
+  color: #1c1a19;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+.line1 {
+  background-color: #212121;
+  border: 1px solid #212121;
+}
+
+.work-h4 {
+  color: #091e42;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.work-p {
+  color: #091e42;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Inter', sans-serif;
+}
+
+.languages {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  padding: 0;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.bttn {
+  box-sizing: border-box;
+  border: 1px solid #8993a4;
+  color: #091e42;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 50;
+  line-height: 20px;
+  padding: 0.6rem;
+  margin-left: 0.4rem;
+}
+
+.project-btn {
+  cursor: pointer;
+  background-color: #ff6b00;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 2rem;
+  border: none;
+  padding: 0.3rem 0.1rem;
+  width: 8rem;
+}
+
+.project-btn:hover {
+  font-style: normal;
+  color: #ff6b00;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  box-sizing: border-box;
+}
+
+.professional {
+  display: grid;
+  row-gap: 40px;
+  background-image: url(/image/placeholder.png);
+  background-repeat: no-repeat;
+  margin-left: 1rem;
+  height: 400px;
+}
+
+.professional-h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 44px;
+  color: #fff;
+  margin-top: 5rem;
+}
+
+.professional-p {
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.professional-btn:enabled {
+  background: #f55800;
+  color: #fff;
+}
+
+.professional-btn:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+}
+
+.listons {
+  font-family: 'Inter', sans-serif;
+  padding: 0.5rem;
+  color: #fff;
+  box-sizing: border-box;
+  border: 1px solid #8993a4;
+  background: rgba(255, 255, 255, 0.24);
+  margin-left: 0.6rem;
+}
+
+.listons-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin-left: 2rem;
+  margin-top: -1.5rem;
+}
+
+.liston-button {
+  border: none;
+  background: #ff6b00;
+  width: 327px;
+  height: 48px;
+  margin-top: -1rem;
+}
+
+.liston-button:hover {
+  color: #ff6b00;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  box-sizing: border-box;
+}
+
+.liston-button:enabled {
+  background: #f55800;
+  color: #fff;
+}
+
+.liston-button:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+}
+
+.about-me-container {
+  background-color: #1c1a19;
+  width: 375px;
+  height: 2000px;
+}
+
+.aboutme-c {
+  margin-top: 6rem;
+  background-image: url(/image/Group2.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.line2 {
+  border: 1px solid #fff;
+  color: #fff;
+  margin-top: 17rem;
+}
+
+.about-section-h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 88px;
+  padding-top: 4rem;
+  padding-right: 1.6rem;
+  padding-left: 1.6rem;
+}
+
+.about-section-paragraph {
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+  padding: 0 2rem;
+}
+
+.about-section-button {
+  background-color: #ff6b00;
+  color: #fff;
+  border: none;
+  margin-top: 1.5rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  font-style: normal;
+  line-height: 24px;
+  margin-left: 2rem;
+  padding: 1rem;
+}
+
+.about-section-button:hover {
+  color: #ff6b00;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  box-sizing: border-box;
+}
+
+.about-section-button:enabled {
+  background: #f55800;
+  color: #fff;
+}
+
+.about-section-button:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+}
+
+.aboutme-container2 {
+  background-color: #1c1a19;
+  width: 375px;
+  height: 900px;
+  padding-top: 8rem;
+}
+
+.svg-language {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+#language {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  color: #fff;
+}
+
+.js-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+  padding-top: 2rem;
+}
+
+.btnn {
+  padding: 1rem 0;
+  color: #fff;
+}
+
+.svg2-language {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+#framework {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  color: #fff;
+}
+
+.js-section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 43px;
+  color: #fff;
+  padding-top: 2rem;
+}
+
+.svg3-language {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+#skills-section {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  color: #fff;
+}
+
+.section3 {
+  margin-bottom: 4rem;
+}
+
+.js-section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 43px;
+  color: #fff;
+  padding-top: 2rem;
+}
