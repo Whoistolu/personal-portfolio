@@ -106,6 +106,7 @@ a {
 }
 
 .work-h1 {
+  margin-left: 1rem;
   color: #1c1a19;
   font-family: 'Crete Round', serif;
   font-style: normal;
@@ -145,6 +146,7 @@ a {
   font-weight: 50px;
   line-height: 20px;
   padding: 0.6rem;
+  margin-left: 0.4rem;
 }
 
 .languages {
@@ -166,6 +168,7 @@ a {
   font-size: 15px;
   line-height: 2rem;
   border: none;
+  padding: 0.3rem 0.1rem;
   width: 8rem;
 }
 
@@ -177,22 +180,12 @@ a {
   box-sizing: border-box;
 }
 
-.professional-btn:enabled {
-  background: #f55800;
-  color: #fff;
-}
-
-.professional-btn:disabled {
-  background-color: #f4f1f0;
-  color: #5b5957;
-}
-
 .professional {
   display: grid;
   row-gap: 40px;
   background-image: url(/image/placeholder.png);
   background-repeat: no-repeat;
-  background-position: center;
+  margin-left: 1rem;
   height: 400px;
 }
 
@@ -205,6 +198,7 @@ a {
   font-size: 35px;
   line-height: 44px;
   color: #fff;
+  margin-top: 5rem;
 }
 
 .professional-p {
@@ -213,10 +207,19 @@ a {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
-  margin-top: 0.5rem;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
+}
+
+.professional-btn:enabled {
+  background: #f55800;
+  color: #fff;
+}
+
+.professional-btn:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
 }
 
 .listons {
@@ -228,27 +231,39 @@ a {
   background: rgba(255, 255, 255, 0.24);
 }
 
-.listons-button {
+.listons-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin-left: 2rem;
+  margin-top: -1.5rem;
+}
+
+.listons {
+  margin-left: 0.6rem;
+}
+
+.liston-button {
   border: none;
   background: #ff6b00;
   width: 327px;
   height: 48px;
-  margin-left: 1.5rem;
+  margin-top: -1rem;
 }
 
-.listons-button:hover {
+.liston-button:hover {
   color: #ff6b00;
   background: #fff5e1;
   border: 1px solid #f55800;
   box-sizing: border-box;
 }
 
-.listons-button:enabled {
+.liston-button:enabled {
   background: #f55800;
   color: #fff;
 }
 
-.listons-button:disabled {
+.liston-button:disabled {
   background-color: #f4f1f0;
   color: #5b5957;
 }
