@@ -94,9 +94,47 @@ a {
   padding-left: 1rem;
 }
 
+.work-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15rem;
+  height: auto;
+}
+
+.work-h1 {
+  color: #1c1a19;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 3rem;
+}
+
+.work-h4 {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #1c1a19;
+  margin-left: -4rem;
+}
+
+.work-p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 2rem;
+}
+
 /***  Milestone two (2) The middle part of the project  **/
 
-.grid-container {
+/* .grid-container {
   grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 18vh;
@@ -483,4 +521,4 @@ a {
   line-height: 43px;
   color: #fff;
   padding-top: 2rem;
-}
+} */
