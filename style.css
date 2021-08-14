@@ -94,13 +94,15 @@ a {
   padding-left: 1rem;
 }
 
-.work-section {
+.first-box {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 15rem;
-  height: auto;
+  flex-flow: column wrap;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.projectimg {
+  margin-top: 2rem;
 }
 
 .work-h1 {
@@ -111,170 +113,92 @@ a {
   font-size: 40px;
   line-height: 52px;
   margin-bottom: 3rem;
+  margin-top: 2rem;
 }
 
 .work-h4 {
+  color: #091e42;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
   line-height: 44px;
-  color: #1c1a19;
-  margin-left: -4rem;
 }
 
 .work-p {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  margin-left: 2rem;
-}
-
-/***  Milestone two (2) The middle part of the project  **/
-
-/* .grid-container {
-  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-gap: 18vh;
-  padding: 18vh 4vw;
-}
-
-.new_h1 {
-  color: #1c1a19;
-  font-family: 'Crete Round', serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 40px;
-  line-height: 52px;
-  border-bottom: 1px solid black;
-  padding-bottom: 2.5rem;
-}
-
-.pic-2 {
-  padding-top: 4rem;
-}
-
-.new_h4 {
   color: #091e42;
-  font-family: 'Crete Round', serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 32px;
-  line-height: 44px;
-  padding: 1rem 0;
-}
-
-.new_p {
-  color: #091e42;
-  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
+  font-family: 'Inter', sans-serif;
 }
 
-.middle-button {
+.bttn {
+  box-sizing: border-box;
+  border: 1px solid #8993a4;
+  color: #1c1a19;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 50px;
+  line-height: 20px;
+  padding: 0.6rem;
+}
+
+.languages {
   display: flex;
+  flex-flow: row wrap;
   justify-content: flex-start;
-  margin-top: 5%;
-}
-
-.css-button {
-  border: 1px solid #8993a4;
-  box-sizing: border-box;
-  background: #fff;
-  color: #091e42;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 3rem;
-  margin-left: -1rem;
-  margin-top: 1rem;
+  padding: 0;
+  margin-top: 2rem;
   margin-bottom: 1rem;
-  padding: 0 0.7rem;
 }
 
-.html-button {
-  border: 1px solid #8993a4;
-  box-sizing: border-box;
-  background: #fff;
-  color: #091e42;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 3rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 0.5rem;
-  padding: 0 0.7rem;
-}
-
-.bootstrap-button {
-  border: 1px solid #8993a4;
-  box-sizing: border-box;
-  background: #fff;
-  color: #091e42;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 3rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 0.5rem;
-  padding: 0 0.7rem;
-}
-
-.ruby-button {
-  border: 1px solid #8993a4;
-  box-sizing: border-box;
-  background: #fff;
-  color: #091e42;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 3rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 0.5rem;
-  padding: 0 0.7rem;
-}
-
-.project-button {
+.project-btn {
   cursor: pointer;
-  border: 1px solid #8993a4;
-  box-sizing: border-box;
-  background: #ff6b00;
+  background-color: #ff6b00;
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 2rem;
-  margin-left: -1rem;
-  padding: 0 0.7rem;
+  border: none;
+  width: 8rem;
 }
 
-.grid-container2 {
+.project-btn:hover {
+  font-style: normal;
+  color: #ff6b00;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  box-sizing: border-box;
+}
+
+.professional-btn:enabled {
+  background: #f55800;
+  color: #fff;
+}
+
+.professional-btn:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+}
+
+.professional {
+  display: grid;
+  row-gap: 40px;
   background-image: url(/image/placeholder.png);
   background-repeat: no-repeat;
   background-position: center;
-  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-gap: 18vh;
-  padding: 18vh 4vw;
-  margin-top: -11rem;
+  height: 400px;
 }
 
-.third_h1 {
+.professional-h1 {
   display: flex;
   justify-content: center;
-  padding-top: 3rem;
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: normal;
@@ -283,108 +207,56 @@ a {
   color: #fff;
 }
 
-.third_p {
+.professional-p {
   display: flex;
   justify-content: center;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
+  margin-top: 0.5rem;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
 }
 
-.middle-button2 {
-  display: flex;
-  justify-content: center;
-}
-
-.css-button2 {
-  border: 1px solid #8993a4;
-  box-sizing: border-box;
-  background: rgba(255, 255, 255, 0.24);
-  color: #fff;
+.listons {
   font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 3rem;
-  margin-left: -1rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  padding: 0 0.7rem;
-}
-
-.html-button2 {
-  border: 1px solid #8993a4;
-  box-sizing: border-box;
-  background: rgba(255, 255, 255, 0.24);
+  padding: 0.5rem;
   color: #fff;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 3rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 0.5rem;
-  padding: 0 0.7rem;
-}
-
-.bootstrap-button2 {
-  border: 1px solid #8993a4;
   box-sizing: border-box;
+  border: 1px solid #8993a4;
   background: rgba(255, 255, 255, 0.24);
-  color: #fff;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 3rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 0.5rem;
-  padding: 0 0.7rem;
 }
 
-.project-button2 {
-  cursor: pointer;
+.listons-button {
+  border: none;
+  background: #ff6b00;
   width: 327px;
   height: 48px;
-  background-color: #ff6b00;
+  margin-left: 1.5rem;
+}
+
+.listons-button:hover {
+  color: #ff6b00;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  box-sizing: border-box;
+}
+
+.listons-button:enabled {
+  background: #f55800;
   color: #fff;
-  border: none;
-  margin-left: 0.19rem;
-  margin-top: 1.5rem;
-  font-family: 'Inter', sans-serif;
-  font-weight: bold;
-  font-size: 17px;
-  font-style: normal;
-  line-height: 24px;
 }
 
-.about-me {
-  background-color: #1c1a19;
-  width: 375px;
-  height: 600px;
-  background-image: url(/image/Group2.png);
-  background-repeat: no-repeat;
-  background-position: 100% 100%;
+.listons-button:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
 }
 
-.line-1 {
-  height: 1px;
-  width: 300px;
-  background-color: #fff;
-  margin-left: 2rem;
-  margin-top: -5rem;
-}
+/***  Milestone two (2) The middle part of the project  **/
 
-.ignore {
-  color: #1c1a19;
-}
 
-.about-section-h1 {
+/* .about-section-h1 {
   display: flex;
   justify-content: center;
   font-family: 'Crete Round', serif;
