@@ -117,6 +117,11 @@ a {
   margin-top: 2rem;
 }
 
+.line1 {
+  background-color: #212121;
+  border: 1px solid #212121;
+}
+
 .work-h4 {
   color: #091e42;
   margin-top: 1rem;
@@ -137,18 +142,6 @@ a {
   font-family: 'Inter', sans-serif;
 }
 
-.bttn {
-  box-sizing: border-box;
-  border: 1px solid #8993a4;
-  color: #1c1a19;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 50px;
-  line-height: 20px;
-  padding: 0.6rem;
-  margin-left: 0.4rem;
-}
-
 .languages {
   display: flex;
   flex-flow: row wrap;
@@ -156,6 +149,18 @@ a {
   padding: 0;
   margin-top: 2rem;
   margin-bottom: 1rem;
+}
+
+.bttn {
+  box-sizing: border-box;
+  border: 1px solid #8993a4;
+  color: #091e42;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 50;
+  line-height: 20px;
+  padding: 0.6rem;
+  margin-left: 0.4rem;
 }
 
 .project-btn {
@@ -229,6 +234,7 @@ a {
   box-sizing: border-box;
   border: 1px solid #8993a4;
   background: rgba(255, 255, 255, 0.24);
+  margin-left: 0.6rem;
 }
 
 .listons-container {
@@ -237,10 +243,6 @@ a {
   justify-content: flex-start;
   margin-left: 2rem;
   margin-top: -1.5rem;
-}
-
-.listons {
-  margin-left: 0.6rem;
 }
 
 .liston-button {
@@ -268,10 +270,26 @@ a {
   color: #5b5957;
 }
 
-/***  Milestone two (2) The middle part of the project  **/
+.about-me-container {
+  background-color: #1c1a19;
+  width: 375px;
+  height: 2000px;
+}
 
+.aboutme-c {
+  margin-top: 6rem;
+  background-image: url(/image/Group2.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
 
-/* .about-section-h1 {
+.line2 {
+  border: 1px solid #fff;
+  color: #fff;
+  margin-top: 17rem;
+}
+
+.about-section-h1 {
   display: flex;
   justify-content: center;
   font-family: 'Crete Round', serif;
@@ -297,7 +315,6 @@ a {
 }
 
 .about-section-button {
-  height: 48px;
   background-color: #ff6b00;
   color: #fff;
   border: none;
@@ -311,10 +328,27 @@ a {
   padding: 1rem;
 }
 
+.about-section-button:hover {
+  color: #ff6b00;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  box-sizing: border-box;
+}
+
+.about-section-button:enabled {
+  background: #f55800;
+  color: #fff;
+}
+
+.about-section-button:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+}
+
 .aboutme-container2 {
   background-color: #1c1a19;
   width: 375px;
-  height: 1400px;
+  height: 900px;
   padding-top: 8rem;
 }
 
@@ -322,6 +356,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 5rem;
 }
 
 #language {
@@ -408,4 +443,4 @@ a {
   line-height: 43px;
   color: #fff;
   padding-top: 2rem;
-} */
+}
