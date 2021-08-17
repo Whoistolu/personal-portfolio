@@ -426,7 +426,7 @@ a {
 }
 
 .form-section {
-  height: 700px;
+  height: 800px;
 }
 
 .form-h1 {
@@ -477,6 +477,7 @@ textarea {
   line-height: 24px;
   padding-top: 1rem;
   padding-left: 1rem;
+  margin-top: 2rem;
 }
 
 .text-input {
@@ -540,4 +541,5 @@ textarea {
   color: #1c1a19;
   margin: 1rem auto;
   border-radius: 10px;
+  margin-bottom: 2rem;
 }
