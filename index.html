@@ -213,27 +213,29 @@
             </div>
         </section>
 
-        <section>
-            <h1>I'm always<br>interested in hearing<br>about new projects,<br>so if you'd like to<br>chat please get in touch.</h1>
-            <form action="https://formspree.io/f/{form_id}" method="post">
-                <fieldset>
-                    <ul>
+        <section class="form-section">
+            <h1 class="form-h1">I'm always<br>interested in hearing<br>about new projects,<br>so if you'd like to<br>chat please get in touch.</h1>
+            <form action="https://formspree.io/f/xoqypwnp" method="post">
+                    <ul class="ul-for-form">
                         <li>
                             <label for="name"></label>
                             <input type="text" name="user_name" id="name" placeholder="Full name" maxlength="30" required>
                         </li>
                         <li>
                             <label for="mail"></label>
-                            <input type="email" name="user_email" id="mail" placeholder="Email Address">
+                            <input type="email" name="user_email" id="mail" placeholder="Email Address" required>
                         </li>
-                        <li>
+                        <li class="txt"> 
                             <label for="msg"></label>
-                            <textarea name="user_message" id="msg" cols="30" rows="10" placeholder="Enter text here" maxlength="500"></textarea>
+                            <textarea  class="text-input" name="user_message" id="msg" cols="10" rows="5" placeholder="Enter text here" maxlength="500" required></textarea>
+                        </li>
+                        <li class="button-container">
+                            <input class="get-button" type="submit" name="submit" value="Get in touch">
                         </li>
                     </ul>
-                </fieldset>
-                <div>
-                    <ul>
+                <hr class="form-line1">
+                <div class="social-icons2">
+                    <ul id="form-icons2" >
                         <li><a href="/"><i class="fab fa-github"></i></a></li>
                         <li><a href="/"><i class="fab fa-linkedin-in"></i></a></li>
                         <li><a href="/"><i class="fab fa-angellist"></i></a></li>
@@ -241,6 +243,7 @@
                         <li><a href="/"><i class="fab fa-medium-m"></i></a></li>
                     </ul>
                 </div>
+                <hr class="form-line2">
             </form>
         </section>
     </main>
