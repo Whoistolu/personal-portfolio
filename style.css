@@ -457,9 +457,7 @@ form {
   margin: 0;
 }
 
-form li + li {
-  margin-top: 1em;
-}
+
 
 label {
   width: 90px;
