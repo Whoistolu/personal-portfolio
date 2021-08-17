@@ -22,7 +22,7 @@ This milestone consists of two (2) sections:
 
 ## Live Demo
 
-[Live Demo Link](https://clever-easley-af195b.netlify.app/)
+[Live Demo Link](https://nifty-borg-b3a6dc.netlify.app/)
 
 
 ## To get a local copy run the following steps:
