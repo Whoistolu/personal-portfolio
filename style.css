@@ -109,8 +109,6 @@ a {
   margin-left: 1rem;
   color: #1c1a19;
   font-family: 'Crete Round', serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 40px;
   line-height: 52px;
   margin-bottom: 3rem;
@@ -127,8 +125,6 @@ a {
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-family: 'Crete Round', serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 32px;
   line-height: 44px;
 }
@@ -156,7 +152,6 @@ a {
   border: 1px solid #8993a4;
   color: #091e42;
   font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 50;
   line-height: 20px;
   padding: 0.6rem;
@@ -168,7 +163,6 @@ a {
   background-color: #ff6b00;
   color: #fff;
   font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 2rem;
@@ -198,8 +192,6 @@ a {
   display: flex;
   justify-content: center;
   font-family: 'Crete Round', serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 35px;
   line-height: 44px;
   color: #fff;
@@ -210,8 +202,6 @@ a {
   display: flex;
   justify-content: center;
   font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
@@ -293,8 +283,6 @@ a {
   display: flex;
   justify-content: center;
   font-family: 'Crete Round', serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 70px;
   line-height: 88px;
   padding-top: 4rem;
@@ -306,8 +294,6 @@ a {
   display: flex;
   justify-content: center;
   font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
@@ -372,8 +358,6 @@ a {
   flex-direction: column;
   align-items: center;
   font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 22px;
   line-height: 43px;
   color: #fff;
@@ -405,8 +389,6 @@ a {
   flex-direction: column;
   align-items: center;
   font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 10px;
   line-height: 43px;
   color: #fff;
@@ -437,10 +419,127 @@ a {
   flex-direction: column;
   align-items: center;
   font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 10px;
   line-height: 43px;
   color: #fff;
   padding-top: 2rem;
+}
+
+.form-section {
+  height: 800px;
+}
+
+.form-h2 {
+  color: #172b4d;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 35px;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+form {
+  padding: 1em;
+  margin: 0 1rem;
+  border: none;
+}
+
+.ul-for-form {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  width: 90px;
+  text-align: right;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  padding: 1rem;
+}
+
+input,
+textarea {
+  width: 300px;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  margin-top: 2rem;
+}
+
+.text-input {
+  background-color: #fbf8f7;
+}
+
+::placeholder {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+}
+
+.button-container {
+  margin: 1rem auto;
+}
+
+.get-button {
+  width: fit-content;
+  color: #fff;
+  background-color: #ff6b00;
+}
+
+.get-button:hover {
+  color: #ff6b00;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  box-sizing: border-box;
+}
+
+.get-button:enabled {
+  background: #f55800;
+  color: #fff;
+}
+
+.get-button:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+}
+
+.form-line1 {
+  color: #dfe1e6;
+  width: 100%;
+}
+
+.social-icons2 > #form-icons2 {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons2 > ul > li > a {
+  color: #505f79;
+}
+
+.form-line2 {
+  width: 12rem;
+  height: 6px;
+  background-color: #1c1a19;
+  color: #1c1a19;
+  margin: 1rem auto;
+  border-radius: 10px;
+  margin-bottom: 2rem;
 }
