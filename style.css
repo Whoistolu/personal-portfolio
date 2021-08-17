@@ -457,10 +457,6 @@ form {
   margin: 0;
 }
 
-form li + li {
-  margin-top: 1em;
-}
-
 label {
   width: 90px;
   text-align: right;
@@ -523,7 +519,7 @@ textarea {
 
 .form-line1 {
   color: #dfe1e6;
-  width: auto;
+  width: 100%;
 }
 
 .social-icons2 > #form-icons2 {
@@ -538,12 +534,10 @@ textarea {
 }
 
 .form-line2 {
-  width: 9rem;
+  width: 12rem;
   height: 6px;
   background-color: #1c1a19;
   color: #1c1a19;
-  margin-top: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 1rem auto;
+  border-radius: 10px;
 }
