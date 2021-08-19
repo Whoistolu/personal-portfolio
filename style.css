@@ -427,7 +427,7 @@ a {
 }
 
 .form-section {
-  height: 800px;
+  height: 500px;
 }
 
 .form-h2 {
@@ -552,6 +552,15 @@ textarea {
 .desktop-header {
   display: none;
 }
+
+.form-h3 {
+  display: none;
+}
+
+/*
+.ul-for-form2  {
+  display: none;
+} */
 
 @media screen and (min-width: 992px) {
   .nav-desktop {
@@ -698,5 +707,78 @@ textarea {
 
   .svg-language {
     margin-top: 0;
+  }
+
+  .js-section3 > .btnn {
+    text-align: left;
+  }
+
+  .js-section2 > .btnn {
+    text-align: left;
+  }
+
+  .js-section > .btnn {
+    text-align: left;
+  }
+
+  .desktop-form {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 6rem;
+
+    /* margin: 0 auto; */
+  }
+
+  .form-h2 {
+    display: none;
+  }
+
+  .form-h3 {
+    color: #172b4d;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 35px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+
+  /* .ul-for-form {
+    display: none;
+  } */
+
+  .ul-for-form {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  input,
+  textarea {
+    width: 600px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    margin-top: 2rem;
+  }
+
+  .button-container {
+    justify-content: left;
+    align-items: flex-start;
+  }
+
+  .form-line2 {
+    display: none;
   }
 }
