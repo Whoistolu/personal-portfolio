@@ -262,8 +262,8 @@ a {
 
 .about-me-container {
   background-color: #1c1a19;
-  width: 375px;
-  height: 2000px;
+  width: auto;
+  height: auto;
 }
 
 .aboutme-c {
@@ -288,6 +288,7 @@ a {
   padding-top: 4rem;
   padding-right: 1.6rem;
   padding-left: 1.6rem;
+  color: #ff6b00;
 }
 
 .about-section-paragraph {
@@ -331,12 +332,12 @@ a {
   color: #5b5957;
 }
 
-.aboutme-container2 {
+/* .aboutme-container2 {
   background-color: #1c1a19;
   width: 375px;
   height: 900px;
   padding-top: 8rem;
-}
+} */
 
 .svg-language {
   display: flex;
@@ -548,6 +549,10 @@ textarea {
   display: none;
 }
 
+.desktop-header {
+  display: none;
+}
+
 @media screen and (min-width: 992px) {
   .nav-desktop {
     display: flex;
@@ -586,6 +591,7 @@ textarea {
     background-image: url(/image/desktop-back.svg);
     background-position: 100% 50%;
     background-repeat: no-repeat;
+    display: flex;
   }
 
   .desktop-header {
@@ -596,4 +602,101 @@ textarea {
     margin-left: 6rem;
   }
 
+  .work-section {
+    display: flex;
+  }
+
+  .first-box {
+    flex-flow: row nowrap;
+    margin: 0 auto;
+    margin-bottom: 20px;  /* change this */
+    justify-content: center;
+    align-items: flex-start;
+    width: 1000px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    /* gap: 20px;  change this */
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .grid-section {
+    width: 1400px;
+
+    /* background-color: crimson; */
+    margin: 0 auto;
+  }
+
+  .first-box img {
+    height: 400px;
+    padding-right: 20px;
+  }
+
+  .line1 {
+    height: 1px;
+    width: 100%;
+    align-self: center;
+  }
+
+  .professional {
+    /* margin-left: 1rem; */
+
+    /* height: 400px; */
+    margin-bottom: 20px;
+  }
+
+  .about-me-container {
+    width: 100%;
+  }
+
+  .aboutme-c {
+    background-image: url(/image/desktop-aboutme.svg);
+    background-position: 100% 30%;
+    background-repeat: no-repeat;
+  }
+
+  .desktop-aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 6rem;
+    flex-grow: 1;
+  }
+
+  .about-section-h1 {
+    margin-top: 4rem;
+  }
+
+  .about-section-button {
+    margin-top: 5rem;
+  }
+
+  .line2 {
+    border: 1px solid #fff;
+    color: #fff;
+    margin-top: 8rem;
+    width: 90%;
+  }
+
+  .desktop-svg {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .svg3-language {
+    margin-top: 6rem;
+  }
+
+  .svg2-language {
+    margin-top: 3rem;
+  }
+
+  .svg-language {
+    margin-top: 0;
+  }
 }
