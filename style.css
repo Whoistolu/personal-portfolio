@@ -741,11 +741,8 @@ textarea {
     font-weight: bold;
     font-size: 27px;
     line-height: 35px;
-    margin-top: 3rem;
     margin-bottom: 2rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: left;
   }
 
@@ -776,6 +773,7 @@ textarea {
   .button-container {
     justify-content: left;
     align-items: flex-start;
+    margin-left: 0;
   }
 
   .form-line2 {
