@@ -241,6 +241,7 @@ a {
   width: 327px;
   height: 48px;
   margin-top: -1rem;
+  font-size: 17px;
 }
 
 .liston-button:hover {
@@ -784,12 +785,16 @@ textarea {
 
   .listons-container {
     margin-left: 0;
+    padding: 0.2rem;
+    margin-bottom: 0.5rem;
   }
 
   .professional {
     background-image: none;
     width: auto;
-    margin-bottom: 20px;
+
+    /* margin-bottom: 20px;
+    margin-top: 3rem; */
   }
 
   .professional1 {
@@ -805,9 +810,28 @@ textarea {
   .professional3 {
     background-image: url(/image/placeholder.png);
     background-repeat: no-repeat;
+    margin-top: 1rem;
+  }
+
+  .adjust {
+    padding-top: 3px;
   }
 
   .liston-button {
     width: auto;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    height: 58px;
+  }
+
+  .h-none {
+    display: none;
+  }
+
+  .remove-button {
+    display: none;
   }
 }
