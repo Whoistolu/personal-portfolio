@@ -103,6 +103,7 @@ a {
 
 .projectimg {
   margin-top: 2rem;
+  width: 100%;
 }
 
 .work-h1 {
@@ -136,6 +137,7 @@ a {
   font-size: 16px;
   line-height: 24px;
   font-family: 'Inter', sans-serif;
+  width: 375px;
 }
 
 .languages {
@@ -607,6 +609,31 @@ textarea {
     display: flex;
   }
 
+  .js-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+  }
+
+  .js-section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .js-section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .desktop-header {
     display: flex;
     justify-content: center;
@@ -648,6 +675,10 @@ textarea {
     row-gap: 30px;
     width: 1000px;
     margin: 0 auto;
+  }
+
+  .projectimg {
+    width: 100%;
   }
 
   .grid-section {
@@ -717,15 +748,9 @@ textarea {
     margin-top: 0;
   }
 
-  .js-section3 > .btnn {
-    text-align: left;
-  }
-
-  .js-section2 > .btnn {
-    text-align: left;
-  }
-
-  .js-section > .btnn {
+  .btnn {
+    color: #fff;
+    margin: 0%;
     text-align: left;
   }
 
@@ -785,16 +810,13 @@ textarea {
 
   .listons-container {
     margin-left: 0;
-    padding: 0.2rem;
+    padding: 1rem;
     margin-bottom: 0.5rem;
   }
 
   .professional {
     background-image: none;
     width: auto;
-
-    /* margin-bottom: 20px;
-    margin-top: 3rem; */
   }
 
   .professional1 {
@@ -803,18 +825,13 @@ textarea {
   }
 
   .professional2 {
-    background-image: url(/image/desktop2.png);
+    background-image: url(/image/leaf.png);
     background-repeat: no-repeat;
   }
 
   .professional3 {
-    background-image: url(/image/placeholder.png);
+    background-image: url(/image/leaf.png);
     background-repeat: no-repeat;
-    margin-top: 1rem;
-  }
-
-  .adjust {
-    padding-top: 3px;
   }
 
   .liston-button {
@@ -823,7 +840,6 @@ textarea {
     align-self: flex-end;
     justify-content: center;
     padding-top: 1rem;
-    margin-bottom: 1rem;
     height: 58px;
   }
 
