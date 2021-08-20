@@ -15,6 +15,12 @@ nav {
   justify-content: center;
 }
 
+.logo:hover {
+  cursor: pointer;
+  transition: all 5s linear;
+  transform: rotateY(360deg);
+}
+
 .nav-links {
   width: 100%;
 }
