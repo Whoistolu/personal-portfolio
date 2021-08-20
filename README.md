@@ -6,11 +6,11 @@
 This is my personal portfolio. 
 
 ![screenshot](./image/design.png)
-![screenshot](./image/design.png2)
-![screenshot](./image/design.png3)
-![screenshot](./image/design.png4)
-![screenshot](./image/design.png5)
-![screenshot](./image/design.png6)
+![screenshot](./image/desig2n.png)
+![screenshot](./image/design3.png)
+![screenshot](./image/design4.png)
+![screenshot](./image/design5.png)
+![screenshot](./image/design6.png)
 
 This is the first milestone for my personal portfolio project.
 A clone of [figma](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=48%3A27)
