@@ -5,7 +5,12 @@
 
 This is my personal portfolio. 
 
-![screenshot](./image/portfolio.png)
+![screenshot](./image/design.png)
+![screenshot](./image/design.png2)
+![screenshot](./image/design.png3)
+![screenshot](./image/design.png4)
+![screenshot](./image/design.png5)
+![screenshot](./image/design.png6)
 
 This is the first milestone for my personal portfolio project.
 A clone of [figma](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=48%3A27)
@@ -22,7 +27,7 @@ This milestone consists of two (2) sections:
 
 ## Live Demo
 
-[Live Demo Link](https://nifty-borg-b3a6dc.netlify.app/)
+[Live Demo Link](https://cranky-haibt-bf176a.netlify.app/)
 
 
 ## To get a local copy run the following steps:
