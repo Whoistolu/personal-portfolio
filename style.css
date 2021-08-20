@@ -713,6 +713,7 @@ textarea {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+
   }
 
   .work-h1 {
@@ -720,12 +721,14 @@ textarea {
     font-family: 'Crete Round', serif;
     font-size: 40px;
     line-height: 52px;
+    flex-shrink: 0;
+    padding-right: 5%;
   }
 
   .line1 {
     background-color: #212121;
     border: 1px solid #212121;
-    width: 100%;
+    width: 90%;
   }
 
   .first-box {
