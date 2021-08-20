@@ -709,7 +709,23 @@ textarea {
 
   .work-section {
     display: flex;
-    margin: 0 19rem;
+    width: 55%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .work-h1 {
+    color: #1c1a19;
+    font-family: 'Crete Round', serif;
+    font-size: 40px;
+    line-height: 52px;
+  }
+  
+  .line1 {
+    background-color: #212121;
+    border: 1px solid #212121;
+    width: 100%;
   }
 
   .first-box {
@@ -746,8 +762,6 @@ textarea {
 
   .line1 {
     height: 1px;
-    width: 100%;
-    align-self: center;
   }
 
   .about-me-container {
