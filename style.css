@@ -721,7 +721,7 @@ textarea {
     font-size: 40px;
     line-height: 52px;
   }
-  
+
   .line1 {
     background-color: #212121;
     border: 1px solid #212121;
@@ -758,10 +758,6 @@ textarea {
   .first-box img {
     height: 400px;
     padding-right: 20px;
-  }
-
-  .line1 {
-    height: 1px;
   }
 
   .about-me-container {
