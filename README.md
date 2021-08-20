@@ -12,6 +12,7 @@ This is my personal portfolio.
 ![screenshot](./image/design5.png)
 ![screenshot](./image/design6.png)
 
+
 This is the first milestone for my personal portfolio project.
 A clone of [figma](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=48%3A27)
 It contains my project, resume and every other information about me.
