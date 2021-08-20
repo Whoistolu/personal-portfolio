@@ -15,6 +15,12 @@ nav {
   justify-content: center;
 }
 
+.logo:hover {
+  cursor: pointer;
+  transition: all 5s linear;
+  transform: rotateY(360deg);
+}
+
 .nav-links {
   width: 100%;
 }
@@ -196,12 +202,6 @@ a {
 .cards {
   display: grid;
   gap: 40px;
-
-  /* background-color: yellow; */
-
-  /* display: flex; */
-
-  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
@@ -213,16 +213,12 @@ a {
   justify-content: flex-end;
   background-image: url(/image/placeholder.png);
   background-repeat: no-repeat;
-
-  /* margin-left: 1rem; */
   height: 400px;
   width: 100%;
 }
 
 .professional-contents {
   margin-top: -15%;
-
-  /* background-color: blue; */
   height: 70%;
   display: flex;
   flex-direction: column;
@@ -233,14 +229,10 @@ a {
 
 .professional-h1 {
   display: flex;
-
-  /* justify-content: center; */
   font-family: 'Crete Round', serif;
   font-size: 35px;
   line-height: 44px;
   color: #fff;
-
-  /* margin-top: 5rem; */
   width: 100%;
 }
 
@@ -270,8 +262,6 @@ a {
   box-sizing: border-box;
   border: 1px solid #8993a4;
   background: rgba(255, 255, 255, 0.24);
-
-  /* margin-left: 0.6rem; */
   margin-right: 5%;
 }
 
@@ -889,7 +879,22 @@ textarea {
   .professional {
     background-image: none;
     width: 100%;
-    background-color: yellow;
+    transition: all 200ms;
+    box-shadow:
+      0 1px 1px rgba(0, 0, 0, 0.05),
+      0 2px 2px rgba(0, 0, 0, 0.05),
+      0 4px 4px rgba(0, 0, 0, 0.05);
+  }
+
+  .professional:hover {
+    box-shadow:
+      0 1px 1px rgba(0, 0, 0, 0.5),
+      0 2px 2px rgba(0, 0, 0, 0.5),
+      0 4px 4px rgba(0, 0, 0, 0.5),
+      0 8px 8px rgba(0, 0, 0, 0.5),
+      0 16px 16px rgba(0, 0, 0, 0.5),
+      0 32px 32px rgba(0, 0, 0, 0.5);
+    transform: translateY(-2px);
   }
 
   .main-work-container {
