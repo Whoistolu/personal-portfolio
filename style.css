@@ -601,6 +601,20 @@ textarea {
     display: flex;
     justify-content: flex-end;
   }
+  
+  .nav-desktop > li:hover {
+    animation: rotation 200ms linear both;
+    color: rgba(54, 179, 126, 1);
+  }
+
+  @keyframes rotation {
+    0%, 100% {
+      transform: scale(1) rotateZ(0);
+    }
+    50% {
+      transform: scale:(1.1) rotateZ(20deg);
+    }
+  }
 
   .handburger {
     display: none;
