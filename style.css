@@ -602,9 +602,9 @@ textarea {
     justify-content: flex-end;
   }
   
-  .nav-desktop > li:hover {
+  .nav-desktop > li > a:hover {
     animation: rotation 200ms linear both;
-    color: rgba(54, 179, 126, 1);
+    color: rgb(238, 56, 11);
   }
 
   @keyframes rotation {
