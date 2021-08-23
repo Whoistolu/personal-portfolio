@@ -55,7 +55,7 @@ a {
   background-color: #1c1a19;
   width: 100%;
   height: 670px;
-  background-image: url(image/Group.png);
+  background-image: url(img/group.png);
   background-position: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -211,7 +211,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background-image: url(/image/placeholder.png);
+  background-image: url(img/placeholder.png);
   background-repeat: no-repeat;
   height: 400px;
   width: 100%;
@@ -304,7 +304,7 @@ a {
 
 .aboutme-c {
   margin-top: 6rem;
-  background-image: url(/image/Group2.png);
+  background-image: url(img/group2.png);
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
@@ -662,7 +662,7 @@ textarea {
     background-color: #1c1a19;
     width: 100%;
     height: 670px;
-    background-image: url(/image/desktop-back.svg);
+    background-image: url(img/desktop-back.svg);
     background-position: 100% 50%;
     background-repeat: no-repeat;
     display: flex;
@@ -773,7 +773,7 @@ textarea {
   }
 
   .aboutme-c {
-    background-image: url(/image/desktop-aboutme.svg);
+    background-image: url(img/desktop-aboutme.svg);
     background-position: 100% 30%;
     background-repeat: no-repeat;
   }
@@ -918,17 +918,17 @@ textarea {
   }
 
   .professional1 {
-    background-image: url(/image/desktop1.png);
+    background-image: url(img/desktop1.png);
     background-repeat: no-repeat;
   }
 
   .professional2 {
-    background-image: url(/image/leaf.png);
+    background-image: url(img/leaf.png);
     background-repeat: no-repeat;
   }
 
   .professional3 {
-    background-image: url(/image/leaf.png);
+    background-image: url(img/leaf.png);
     background-repeat: no-repeat;
   }
 
