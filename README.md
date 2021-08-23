@@ -28,7 +28,7 @@ This milestone consists of two (2) sections:
 
 ## Live Demo
 
-[Live Demo Link](https://stupefied-payne-1fc0b5.netlify.app/)
+[Live Demo Link](https://whoistolu.github.io/personal-portfolio/)
 
 
 ## To get a local copy run the following steps:
