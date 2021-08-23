@@ -5,12 +5,12 @@
 
 This is my personal portfolio. 
 
-![screenshot](./image/design.png)
-![screenshot](./image/desig2n.png)
-![screenshot](./image/design3.png)
-![screenshot](./image/design4.png)
-![screenshot](./image/design5.png)
-![screenshot](./image/design6.png)
+![screenshot](img/design.png)
+![screenshot](img/desig2n.png)
+![screenshot](img/design3.png)
+![screenshot](img/design4.png)
+![screenshot](img/design5.png)
+![screenshot](img/design6.png)
 
 
 This is the first milestone for my personal portfolio project.
@@ -28,7 +28,7 @@ This milestone consists of two (2) sections:
 
 ## Live Demo
 
-[Live Demo Link](https://cranky-haibt-bf176a.netlify.app/)
+[Live Demo Link](https://whoistolu.github.io/personal-portfolio/)
 
 
 ## To get a local copy run the following steps:
