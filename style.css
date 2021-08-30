@@ -15,6 +15,10 @@ nav {
   justify-content: center;
 }
 
+#mobile-menu {
+  display: none;
+}
+
 .logo:hover {
   cursor: pointer;
   transition: all 5s linear;
