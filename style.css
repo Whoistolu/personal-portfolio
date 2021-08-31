@@ -32,6 +32,18 @@ nav {
   background-color: #3c3a39;
 }
 
+.menu-links {
+  border-bottom: 1px solid #6f6c6b;
+  color: #fff5e1;
+  padding-bottom: 0.94rem;
+  margin: 0 1.5rem;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+}
+
 #close-button {
   margin-left: auto;
   display: inline-block;
