@@ -5,12 +5,8 @@
 
 This is my personal portfolio. 
 
-![screenshot](img/design.png)
-![screenshot](img/desig2n.png)
-![screenshot](img/design3.png)
-![screenshot](img/design4.png)
-![screenshot](img/design5.png)
-![screenshot](img/design6.png)
+![screenshot](./img/mobile-menu.png)
+
 
 
 This is the first milestone for my personal portfolio project.
