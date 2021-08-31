@@ -34,6 +34,7 @@ function display () {
   targetedDiv.classList.add('show');
   menuButton.style.display = 'none';
 }
+
 menuButton.addEventListener('click',display);
 const closeButton = document.querySelector('#close-button');
 function closePop () {
@@ -41,6 +42,7 @@ function closePop () {
   targetedDiv2.classList.remove('show');
   menuButton.style.display = 'block';
 }
+
 closeButton.addEventListener('click',closePop);
 const anchorTagLinks = document.querySelectorAll('.menu-links');
 anchorTagLinks.forEach((link) => {
