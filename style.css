@@ -45,6 +45,20 @@ nav {
   bottom: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-icons,
+a {
+  padding-left: 1rem;
+}
+
+.social-icons2 > ul > li > a {
+  color: #505f79;
+}
+
 #mobile-menu > a {
   padding-top: 5%;
 }
@@ -87,11 +101,6 @@ li {
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
 }
 
 .main-section {
@@ -146,11 +155,6 @@ p {
   justify-content: flex-start;
   list-style-type: none;
   margin-top: 5%;
-}
-
-.social-icons,
-a {
-  padding-left: 1rem;
 }
 
 .first-box {
@@ -611,10 +615,6 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.social-icons2 > ul > li > a {
-  color: #505f79;
 }
 
 .form-line2 {
