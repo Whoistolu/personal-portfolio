@@ -650,6 +650,10 @@ textarea {
     color: rgb(238, 56, 11);
   }
 
+  .mobile-menu-hidden {
+    display: none;
+  }
+
   @keyframes rotation {
     0%,
     100% {
