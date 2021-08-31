@@ -31,12 +31,12 @@
 <body>
     <div>
         <nav class="nav-links">
-            <ul class="nav-mobile">
-                <li class="logo"><a href="/">Tolu's Logo</a></li>
-                <li class="handburger" id="menu-button"><a href="/"><i class="fas fa-bars hamburger-icon menu"></i></a></li>
-            </ul>
-            <div id="mobile-menu">
+            <div class="nav-mobile">
+                <a class="logo" href="/">Tolu's Logo</a>
+                <!-- <a class="handburger" href="/"><i class="fas fa-bars hamburger-icon menu"></i></a> -->
+                <button id="menu-button" class="handburger"><i style="background-color: #3c3a39;" class="fas fa-bars hamburger-icon menu"></i></button>
             </div>
+           
             <ul class="nav-desktop">
                 <li ><a href="/">Portfolio</a></li>
                 <li><a href="/">About</a></li>
@@ -44,6 +44,8 @@
                 <li><a href="/"><i class="fas fa-envelope"></i></a></li>
             </ul>
         </nav>
+    </div>
+    <div id="mobile-menu">
     </div>
 
     <main>
@@ -85,7 +87,7 @@
             </div>  
         </section>
 
-        <section class="main-work-container">
+        <section class="main-work-container" id="actual-work-section">
             <div class="work-section">
                 <h2 class="work-h1">My Recent Works</h2>
                 <div class="line1"></div>
@@ -199,7 +201,7 @@
             </div>
         </section>
 
-        <section class="about-me-container">
+        <section class="about-me-container" id="menu-about">
             <div class="aboutme-c">
                 <div class="desktop-aboutme">
                     <h2 class="about-section-h1">About me</h2>
@@ -265,7 +267,7 @@
             </div>
         </section>
 
-        <section class="form-section">
+        <section class="form-section" id="menu-contact">
             <div class="desktop-form">
                 <div>
                     <h2 class="form-h2">I'm always<br>interested in hearing<br>about new projects,<br>so if you'd like to<br>chat please get in touch.</h2>

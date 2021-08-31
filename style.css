@@ -15,9 +15,7 @@ nav {
   justify-content: center;
 }
 
-#mobile-menu {
-  display: none;
-}
+
 
 .logo:hover {
   cursor: pointer;
@@ -27,6 +25,15 @@ nav {
 
 .nav-links {
   width: 100%;
+}
+
+.nav-mobile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.handburger {
+  margin-right: 5%;
 }
 
 .info {
