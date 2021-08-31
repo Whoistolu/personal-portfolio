@@ -14,7 +14,6 @@ It contains my project, resume and every other information about me.
 This milestone consists of two (2) sections:
 1. The toolbar (or header)
 2. The headline section (right after the header)
-
 ## Built With
 
 - HTML
