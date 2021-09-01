@@ -15,6 +15,44 @@ nav {
   justify-content: center;
 }
 
+#modal {
+  background-color: #fff;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#modal .heading {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#modal .close {
+  padding-right: 1rem;
+  padding-top: 1rem;
+  /* padding: 5px; */
+}
+
+#modal .heading h1 {
+  color: #172b4d;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.description {
+  color: #344583;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 .mobile-menu-hidden {
   display: none;
 }
