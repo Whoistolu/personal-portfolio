@@ -25,7 +25,7 @@ nav {
   left: 0;
   top: 0;
   bottom: 0;
-  padding: 0 10%;
+  padding: 5% 5%;
 }
 
 #modal .heading {
@@ -45,6 +45,10 @@ nav {
   font-weight: bold;
   font-size: 30px;
   line-height: 44px;
+}
+
+.image {
+
 }
 
 .description {
@@ -84,7 +88,7 @@ nav {
   background-color: #ff6b00;
   padding: 1em 1em;
   text-decoration: none;
-  margin-left: 1.7rem;
+  margin-left: 1rem;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -106,7 +110,7 @@ nav {
 }
 
 .double-button {
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 .mobile-menu-hidden {
@@ -745,18 +749,29 @@ textarea {
   display: none;
 }
 
+.big-ten {
+  display: none;
+}
+
 @media screen and (min-width: 992px) {
   #modal {
-    display: block;
+    display: none;
     background-color: #fff;
     position: fixed;
-    right: 0;
-    left: 20%;
+    right: 4.2rem;
+    left: 4.2rem;
     top: 0;
     bottom: 0;
-    width: 1156px;
-    height: 631px;
     padding: 0 3%;
+  }
+
+  .big-ten {
+    display: block;
+    width: 100%;
+  }
+
+  .image {
+    display: none;
   }
 
   #modal .heading {
@@ -774,7 +789,7 @@ textarea {
   }
 
   .img-p-button .image {
-    width: 659px;
+    width: 100%;
     height: 448px;
   }
 
@@ -798,6 +813,7 @@ textarea {
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
+    word-wrap: break-word;
   }
 
   .first-button {
