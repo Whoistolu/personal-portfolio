@@ -28,6 +28,10 @@ nav {
   padding: 0 10%;
 }
 
+#second-modal {
+  display: none;
+}
+
 #modal .heading {
   display: flex;
   justify-content: space-evenly;
