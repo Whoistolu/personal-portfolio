@@ -28,10 +28,6 @@ nav {
   padding: 0 10%;
 }
 
-#second-modal {
-  display: none;
-}
-
 #modal .heading {
   display: flex;
   justify-content: space-evenly;
@@ -750,62 +746,113 @@ textarea {
 }
 
 @media screen and (min-width: 992px) {
-  /* Detail opup for desktop */
-
-  #second-modal {
+  #modal {
+    display: block;
+    background-color: #fff;
     position: fixed;
     right: 0;
-    left: 10%;
+    left: 20%;
     top: 0;
     bottom: 0;
-    background-color: #fff;
     width: 1156px;
     height: 631px;
-    padding: 0 2%;
+    padding: 0 3%;
   }
 
-  .description2 {
-    color: #344563;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
-    margin-left: 5%;
+  #modal .heading {
+    display: flex;
+    justify-content: space-between;
   }
 
-  .img-and-description .double-button {
-    margin-left: 5%;
-    padding-top: 2%;
+  #modal .close {
+    padding-right: 0;
+    padding-top: 0.9rem;
   }
 
-  .img-and-description {
+  .img-p-button {
     display: flex;
   }
 
-  .bigten {
+  .img-p-button .image {
     width: 659px;
     height: 448px;
   }
 
-  /* .description2 {
-    width: 424px;
-    height: 336px;
-  } */
-
-  .text-and-close {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 0%;
+  .p-button {
+    margin-left: 2rem;
   }
 
-  .text-and-close h2 {
-    font-family: 'Crete Round', serif;
+  #modal .heading h2 {
+    color: #172b4d;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+  }
+
+  .description {
+    color: #344583;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .first-button {
+    background-color: #ff6b00;
+
+    /* padding: 1em 1em; */
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+  }
+
+  .first-button:hover {
+    background-color: #fff5e1;
+  }
+
+  .first-button:enabled {
+    background-color: #f55800;
+  }
+
+  .first-button:disabled {
+    background-color: #f4f1f0;
+  }
+
+  .second-button {
+    background-color: #ff6b00;
+    padding: 1em 1em;
+    text-decoration: none;
+    margin-left: 1.7rem;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+  }
+
+  .second-button:hover {
+    background-color: #fff5e1;
+  }
+
+  .second-button:enabled {
+    background-color: #f55800;
+  }
+
+  .second-button:disabled {
+    background-color: #f4f1f0;
+  }
+
+  .double-button {
+    display: flex;
+    padding-top: 39%;
   }
 
   .nav-desktop {
