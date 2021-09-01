@@ -15,13 +15,17 @@ nav {
   justify-content: center;
 }
 
+/* Details popup windows */
+
 #modal {
+  display: none;
   background-color: #fff;
   position: fixed;
   right: 0;
   left: 0;
   top: 0;
   bottom: 0;
+  padding: 0 10%;
 }
 
 #modal .heading {
@@ -30,17 +34,16 @@ nav {
 }
 
 #modal .close {
-  padding-right: 1rem;
-  padding-top: 1rem;
-  /* padding: 5px; */
+  padding-right: 0;
+  padding-top: 0.9rem;
 }
 
-#modal .heading h1 {
+#modal .heading h2 {
   color: #172b4d;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 44px;
 }
 
@@ -51,6 +54,59 @@ nav {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
+}
+
+.first-button {
+  background-color: #ff6b00;
+  padding: 1em 1em;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.first-button:hover {
+  background-color: #fff5e1;
+}
+
+.first-button:enabled {
+  background-color: #f55800;
+}
+
+.first-button:disabled {
+  background-color: #f4f1f0;
+}
+
+.second-button {
+  background-color: #ff6b00;
+  padding: 1em 1em;
+  text-decoration: none;
+  margin-left: 1.7rem;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.second-button:hover {
+  background-color: #fff5e1;
+}
+
+.second-button:enabled {
+  background-color: #f55800;
+}
+
+.second-button:disabled {
+  background-color: #f4f1f0;
+}
+
+.double-button {
+  margin-top: 15%;
 }
 
 .mobile-menu-hidden {
@@ -690,6 +746,64 @@ textarea {
 }
 
 @media screen and (min-width: 992px) {
+  /* Detail opup for desktop */
+
+  #second-modal {
+    position: fixed;
+    right: 0;
+    left: 10%;
+    top: 0;
+    bottom: 0;
+    background-color: #fff;
+    width: 1156px;
+    height: 631px;
+    padding: 0 2%;
+  }
+
+  .description2 {
+    color: #344563;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 5%;
+  }
+
+  .img-and-description .double-button {
+    margin-left: 5%;
+    padding-top: 2%;
+  }
+
+  .img-and-description {
+    display: flex;
+  }
+
+  .bigten {
+    width: 659px;
+    height: 448px;
+  }
+
+  /* .description2 {
+    width: 424px;
+    height: 336px;
+  } */
+
+  .text-and-close {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 0%;
+  }
+
+  .text-and-close h2 {
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
   .nav-desktop {
     display: flex;
     justify-content: flex-end;
