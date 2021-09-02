@@ -32,7 +32,6 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  border: 2px solid blue;
   height: auto;
   overflow: auto;
 }
