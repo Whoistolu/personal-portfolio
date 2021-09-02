@@ -75,14 +75,19 @@ nav {
 
 .first-button:hover {
   background-color: #fff5e1;
+  color: #ff6b00;
+  border: 1px solid #f55800;
+  box-sizing: border-box;
 }
 
 .first-button:enabled {
   background-color: #f55800;
+  color: #fff;
 }
 
 .first-button:disabled {
   background-color: #f4f1f0;
+  color: #5b5957;
 }
 
 .second-button {
@@ -100,14 +105,19 @@ nav {
 
 .second-button:hover {
   background-color: #fff5e1;
+  color: #ff6b00;
+  border: 1px solid #f55800;
+  box-sizing: border-box;
 }
 
 .second-button:enabled {
   background-color: #f55800;
+  color: #fff;
 }
 
 .second-button:disabled {
   background-color: #f4f1f0;
+  color: #5b5957;
 }
 
 .double-button {
@@ -782,23 +792,27 @@ textarea {
     justify-content: space-between;
     padding-top: 3rem;
   }
+
   #modal .close {
     padding-right: 0;
     padding-top: 0.9rem;
   }
+
   .img-p-button {
     display: flex;
   }
+
   .img-p-button .image {
     width: 100%;
     height: 448px;
   }
+
   .p-button {
     margin-left: 2rem;
   }
-  
+
   #modal .heading h2 {
-    color: #172B4D;
+    color: #172b4d;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -817,7 +831,8 @@ textarea {
   }
 
   .first-button {
-    background-color: #FF6B00;
+    background-color: #ff6b00;
+
     /* padding: 1em 1em; */
     text-decoration: none;
     font-family: 'Inter', sans-serif;
@@ -829,19 +844,24 @@ textarea {
   }
 
   .first-button:hover {
-    background-color: #FFF5E1;
+    background-color: #fff5e1;
+    color: #ff6b00;
+    border: 1px solid #f55800;
+    box-sizing: border-box;
   }
 
   .first-button:enabled {
-    background-color: #F55800;
+    background-color: #f55800;
+    color: #fff;
   }
 
   .first-button:disabled {
-    background-color: #F4F1F0;
+    background-color: #f4f1f0;
+    color: #5b5957;
   }
 
   .second-button {
-    background-color: #FF6B00;
+    background-color: #ff6b00;
     padding: 1em 1em;
     text-decoration: none;
     margin-left: 1.7rem;
@@ -854,15 +874,20 @@ textarea {
   }
 
   .second-button:hover {
-    background-color: #FFF5E1;
+    background-color: #fff5e1;
+    color: #ff6b00;
+    border: 1px solid #f55800;
+    box-sizing: border-box;
   }
 
   .second-button:enabled {
-    background-color: #F55800;
+    background-color: #f55800;
+    color: #fff;
   }
 
   .second-button:disabled {
-    background-color: #F4F1F0;
+    background-color: #f4f1f0;
+    color: #5b5957;
   }
 
   .double-button {
