@@ -71,6 +71,7 @@ nav {
   font-size: 17px;
   line-height: 24px;
   color: #fff;
+  margin-left: 0rem;
 }
 
 .first-button:hover {
@@ -94,13 +95,13 @@ nav {
   background-color: #ff6b00;
   padding: 1em 1em;
   text-decoration: none;
-  margin-left: 1rem;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
   line-height: 24px;
   color: #fff;
+  margin-left:  3.5rem;
 }
 
 .second-button:hover {
