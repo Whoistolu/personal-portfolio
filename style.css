@@ -71,7 +71,6 @@ nav {
   font-size: 17px;
   line-height: 24px;
   color: #fff;
-  margin-left: 0rem;
 }
 
 .first-button:hover {
@@ -101,7 +100,7 @@ nav {
   font-size: 17px;
   line-height: 24px;
   color: #fff;
-  margin-left:  3.5rem;
+  margin-left: 3.5rem;
 }
 
 .second-button:hover {
