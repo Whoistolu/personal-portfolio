@@ -49,7 +49,9 @@ nav {
 }
 
 .image {
-  width: 100%;
+  width: 311px;
+  height: 220px;
+  object-fit: cover;
 }
 
 .description {
@@ -778,13 +780,17 @@ textarea {
     border: 1px solid #ff6b00;
   }
 
-  .big-ten {
+  /* .big-ten {
     display: block;
-    width: 100%;
-  }
+    width: 659px;
+    height: 448px;
+    object-fit: cover;
+  } */
 
   .image {
-    display: none;
+    width: 659px;
+    height: 448px;
+    object-fit: cover;
   }
 
   #modal .heading {
@@ -892,7 +898,7 @@ textarea {
 
   .double-button {
     display: flex;
-    padding-top: 39%;
+    padding-top: 50%;
   }
 
   .nav-desktop {
