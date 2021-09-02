@@ -780,13 +780,6 @@ textarea {
     border: 1px solid #ff6b00;
   }
 
-  /* .big-ten {
-    display: block;
-    width: 659px;
-    height: 448px;
-    object-fit: cover;
-  } */
-
   .image {
     width: 659px;
     height: 448px;
@@ -811,9 +804,13 @@ textarea {
   .img-p-button .image {
     width: 100%;
     height: 448px;
+    object-fit: cover;
   }
 
   .p-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin-left: 2rem;
   }
 
@@ -898,7 +895,6 @@ textarea {
 
   .double-button {
     display: flex;
-    padding-top: 50%;
   }
 
   .nav-desktop {
