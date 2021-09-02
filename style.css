@@ -19,24 +19,37 @@ nav {
 
 #modal {
   display: none;
-  background-color: #fff;
+  background-color: white;
   position: fixed;
   right: 0;
   left: 0;
   top: 0;
   bottom: 0;
-  padding: 5% 5%;
+  /* padding: 5% 5%; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding: 20px;
   z-index: 200;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: auto;
+ 
+  overflow: auto;
 }
 
 #modal .heading {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 #modal .close {
-  padding-right: 0;
-  padding-top: 0.9rem;
+  /* padding-right: 0; */
+  /* padding-top: 0.9rem; */
+  padding: 14px;
 }
 
 #modal .heading h2 {
@@ -48,24 +61,48 @@ nav {
   line-height: 44px;
 }
 
-.image {
-  width: 311px;
-  height: 220px;
+#modal .image {
+  /* width: 311px; */
+  /* height: 220px; */
+  width: 100%;
   object-fit: cover;
+  flex-shrink: 1;
+  height: 100%;
+  min-height: 100px;
 }
 
-.description {
-  color: #344583;
+#modal .description {
+  color: #344563;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
+  margin-top: 24px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  /* max-height: 100px; */
+  overflow: auto;
+}
+
+.img-p-button {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.p-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
 }
 
 .first-button {
+  padding: 0;
   background-color: #ff6b00;
-  padding: 1em 1em;
+  padding: 14px;
   text-decoration: none;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -73,6 +110,10 @@ nav {
   font-size: 17px;
   line-height: 24px;
   color: #fff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .first-button:hover {
@@ -92,9 +133,9 @@ nav {
   color: #5b5957;
 }
 
-.second-button {
+/* .second-button {
   background-color: #ff6b00;
-  padding: px;
+  padding: 1em 1em;
   text-decoration: none;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -102,7 +143,6 @@ nav {
   font-size: 17px;
   line-height: 24px;
   color: #fff;
-  margin-left: 3.5rem;
 }
 
 .second-button:hover {
@@ -120,14 +160,17 @@ nav {
 .second-button:disabled {
   background-color: #f4f1f0;
   color: #5b5957;
+} */
+
+.double-button {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 16px;
 }
 
 .double-button {
-  margin-top: 10%;
-}
-#message-validator {
-  font-family: 'Crete Round', serif;
-  font-size: 26px;
+  width: 100%;
 }
 
 .mobile-menu-hidden {
@@ -332,24 +375,29 @@ p {
   width: 100%;
 }
 
-.languages {
+#modal .languages {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
+  gap: 10px;
   padding: 0;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  /* margin-top: 2rem; */
+  margin-bottom: 1em;
 }
 
-.bttn {
+#modal .bttn {
   box-sizing: border-box;
-  border: 1px solid #8993a4;
-  color: #091e42;
+  border: 1px solid #979493;
+  color: #3c3a39;
   font-family: 'Inter', sans-serif;
-  font-weight: 50;
+  font-weight: 600;
   line-height: 20px;
+  font-size: 13px;
+  line-height: 16px;
   padding: 0.6rem;
-  margin-left: 0.4rem;
+  font-family: Poppins, sans-serif;
+  
+  /* margin-left: 0.4rem; */
 }
 
 .project-btn {
@@ -775,34 +823,36 @@ textarea {
     display: none;
     background-color: #fff;
     position: fixed;
-    right: 4.2rem;
-    left: 4.2rem;
-    top: 0;
-    bottom: 0;
-    padding: 0 3%;
-    margin: 3%;
+    /* margin: 100px 100px; */
+    /* margin: 3%; */
+    height: fit-content;
+    height: -moz-fit-content;
     border: 1px solid #ff6b00;
+    margin: 112px 142px;
   }
 
-  .image {
-    width: 659px;
-    height: 448px;
+  #modal .image {
+    /* width: 659px; */
+    width: 100%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    min-width: 400px;
+    /* height: 448px; */
+    /* max-width: 700px; */
+    height: unset;
     object-fit: cover;
   }
 
   #modal .heading {
     display: flex;
     justify-content: space-between;
-    padding-top: 3rem;
-  }
-
-  #modal .close {
-    padding-right: 0;
-    padding-top: 0.9rem;
+    /* padding-top: 3rem; */
   }
 
   .img-p-button {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .img-p-button .image {
@@ -816,6 +866,9 @@ textarea {
     flex-direction: column;
     justify-content: space-between;
     margin-left: 2rem;
+    flex-shrink: 1;
+    flex-grow: 1;
+    max-width: 500px;
   }
 
   #modal .heading h2 {
@@ -827,7 +880,8 @@ textarea {
     line-height: 44px;
   }
 
-  .description {
+  #modal .description {
+    margin: 0;
     color: #344583;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -846,6 +900,7 @@ textarea {
     font-size: 17px;
     line-height: 24px;
     color: #fff;
+    max-width: 12em;
   }
 
   .first-button:hover {
@@ -865,38 +920,9 @@ textarea {
     color: #5b5957;
   }
 
-  .second-button {
-    background-color: #ff6b00;
-    padding: 1em 1em;
-    text-decoration: none;
-    margin-left: 1.7rem;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 17px;
-    line-height: 24px;
-    color: #fff;
-  }
-
-  .second-button:hover {
-    background-color: #fff5e1;
-    color: #ff6b00;
-    border: 1px solid #f55800;
-    box-sizing: border-box;
-  }
-
-  .second-button:enabled {
-    background-color: #f55800;
-    color: #fff;
-  }
-
-  .second-button:disabled {
-    background-color: #f4f1f0;
-    color: #5b5957;
-  }
-
   .double-button {
     display: flex;
+    justify-content: flex-start;
   }
 
   .nav-desktop {
