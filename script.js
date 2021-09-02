@@ -48,7 +48,6 @@ anchorTagLinks.forEach((link) => {
   link.addEventListener('click', closePop);
 });
 
-
 // popup window
 
 const details = [
@@ -57,16 +56,54 @@ const details = [
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry',
     image: 'img/ten.png',
     technologies: ['ruby', 'css', 'javascript', 'bootsrap'],
-    live: 'https://music.youtube.com/watch?v=p45hoiFgge8&list=RDAMVMb9bn-EtmvvY',
-    source: 'https://music.youtube.com/watch?v=p45hoiFgge8&list=RDAMVMb9bn-EtmvvY',
+    live: 'https://whoistolu.github.io/personal-portfolio/',
+    source: 'https://github.com/Whoistolu/personal-portfolio',
   },
-  
+  {
+    name: 'Multi School Stories',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry',
+    image: 'img/ten.png',
+    technologies: ['ruby', 'css', 'javascript', 'bootsrap'],
+    live: 'https://whoistolu.github.io/personal-portfolio/',
+    source: 'https://github.com/Whoistolu/personal-portfolio',
+  },
+  {
+    name: 'Multi School Stories',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry',
+    image: 'img/ten.png',
+    technologies: ['ruby', 'css', 'javascript', 'bootsrap'],
+    live: 'https://whoistolu.github.io/personal-portfolio/',
+    source: 'https://github.com/Whoistolu/personal-portfolio',
+  },
+  {
+    name: 'Multi School Stories',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry',
+    image: 'img/ten.png',
+    technologies: ['ruby', 'css', 'javascript', 'bootsrap'],
+    live: 'https://whoistolu.github.io/personal-portfolio/',
+    source: 'https://github.com/Whoistolu/personal-portfolio',
+  },
+  {
+    name: 'Multi School Stories',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry',
+    image: 'img/ten.png',
+    technologies: ['ruby', 'css', 'javascript', 'bootsrap'],
+    live: 'https://whoistolu.github.io/personal-portfolio/',
+    source: 'https://github.com/Whoistolu/personal-portfolio',
+  },
+  {
+    name: 'Multi School Stories',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry',
+    image: 'img/ten.png',
+    technologies: ['ruby', 'css', 'javascript', 'bootsrap'],
+    live: 'https://whoistolu.github.io/personal-portfolio/',
+    source: 'https://github.com/Whoistolu/personal-portfolio',
+  },
 ];
 
 const SeeProjectButton = document.querySelectorAll('.project-button2');
-
-SeeProjectButton.forEach(function (item, i) {
-  item.addEventListener('click', function () {
+SeeProjectButton.forEach((item, i) => {
+  item.addEventListener('click', () => {
     const windowPop = document.querySelector('#modal');
     windowPop.style.display = 'block';
     const projectDetail = details[i];
@@ -77,20 +114,17 @@ SeeProjectButton.forEach(function (item, i) {
     const picture = document.querySelector('.img-p-button .image');
     picture.src = projectDetail.image;
     const languages = document.querySelectorAll('.languages .bttn');
-    languages.forEach(function (li, s) {
+    languages.forEach((li, s) => {
       li.textContent = projectDetail.technologies[s];
-    })
+    });
     const live = windowPop.querySelector('.first-button');
     live.href = projectDetail.live;
-    const source = windowPop.querySelector('second-button');
+    const source = windowPop.querySelector('.second-button');
     source.href = projectDetail.source;
   });
-})
-
+});
 const closeProjectButton = document.querySelector('.close');
-
-closeProjectButton.addEventListener('click', function(){
+closeProjectButton.addEventListener('click', () => {
   const windowPop = document.querySelector('#modal');
-    windowPop.style.display = 'none';
-})
-
+  windowPop.style.display = 'none';
+});
