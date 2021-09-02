@@ -100,3 +100,31 @@ const details = [
     source: 'https://github.com/Whoistolu/personal-portfolio',
   },
 ];
+
+const SeeProjectButton = document.querySelectorAll('.project-button2');
+SeeProjectButton.forEach((item, i) => {
+  item.addEventListener('click', () => {
+    const windowPop = document.querySelector('#modal');
+    windowPop.style.display = 'block';
+    const projectDetail = details[i];
+    const heading = document.querySelector('.heading h2');
+    heading.textContent = projectDetail.name;
+    const paragraph = document.querySelector('.img-p-button .description');
+    paragraph.textContent = projectDetail.description;
+    const picture = document.querySelector('.img-p-button .image');
+    picture.src = projectDetail.image;
+    const languages = document.querySelectorAll('.languages .bttn');
+    languages.forEach((li, s) => {
+      li.textContent = projectDetail.technologies[s];
+    });
+    const live = windowPop.querySelector('.first-button');
+    live.href = projectDetail.live;
+    const source = windowPop.querySelector('.second-button');
+    source.href = projectDetail.source;
+  });
+});
+const closeProjectButton = document.querySelector('.close');
+closeProjectButton.addEventListener('click', () => {
+  const windowPop = document.querySelector('#modal');
+  windowPop.style.display = 'none';
+});
