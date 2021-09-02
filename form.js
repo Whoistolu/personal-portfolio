@@ -1,0 +1,1 @@
+const emailAddress = document.getElementById('user_email');
