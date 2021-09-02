@@ -15,8 +15,6 @@ nav {
   justify-content: center;
 }
 
-/* Details popup windows */
-
 #modal {
   display: none;
   background-color: white;
@@ -25,7 +23,6 @@ nav {
   left: 0;
   top: 0;
   bottom: 0;
-  /* padding: 5% 5%; */
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 16px;
@@ -37,8 +34,6 @@ nav {
   justify-content: flex-start;
   border: 2px solid blue;
   height: auto;
-  /* min-width: 343px; */
-  /* min-height: 718px; */
   overflow: auto;
 }
 
@@ -49,8 +44,6 @@ nav {
 }
 
 #modal .close {
-  /* padding-right: 0; */
-  /* padding-top: 0.9rem; */
   padding: 14px;
 }
 
@@ -64,8 +57,6 @@ nav {
 }
 
 #modal .image {
-  /* width: 311px; */
-  /* height: 220px; */
   width: 100%;
   object-fit: cover;
   flex-shrink: 1;
@@ -83,7 +74,6 @@ nav {
   margin-top: 24px;
   flex-grow: 0;
   flex-shrink: 0;
-  /* max-height: 100px; */
   overflow: auto;
 }
 
@@ -134,35 +124,6 @@ nav {
   background-color: #f4f1f0;
   color: #5b5957;
 }
-
-/* .second-button {
-  background-color: #ff6b00;
-  padding: 1em 1em;
-  text-decoration: none;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 24px;
-  color: #fff;
-}
-
-.second-button:hover {
-  background-color: #fff5e1;
-  color: #ff6b00;
-  border: 1px solid #f55800;
-  box-sizing: border-box;
-}
-
-.second-button:enabled {
-  background-color: #f55800;
-  color: #fff;
-}
-
-.second-button:disabled {
-  background-color: #f4f1f0;
-  color: #5b5957;
-} */
 
 .double-button {
   display: flex;
@@ -383,7 +344,6 @@ p {
   justify-content: flex-start;
   gap: 10px;
   padding: 0;
-  /* margin-top: 2rem; */
   margin-bottom: 1em;
 }
 
@@ -398,8 +358,6 @@ p {
   line-height: 16px;
   padding: 0.6rem;
   font-family: Poppins, sans-serif;
-  
-  /* margin-left: 0.4rem; */
 }
 
 .project-btn {
@@ -825,22 +783,17 @@ textarea {
     display: none;
     background-color: #fff;
     position: fixed;
-    /* margin: 100px 100px; */
-    /* margin: 3%; */
     height: fit-content;
     height: -moz-fit-content;
     border: 1px solid #ff6b00;
-    margin: 112px 142px;
+    margin: 80px 142px;
   }
 
   #modal .image {
-    /* width: 659px; */
     width: 100%;
     flex-shrink: 1;
     flex-grow: 1;
     min-width: 400px;
-    /* height: 448px; */
-    /* max-width: 700px; */
     height: unset;
     object-fit: cover;
   }
@@ -848,7 +801,6 @@ textarea {
   #modal .heading {
     display: flex;
     justify-content: space-between;
-    /* padding-top: 3rem; */
   }
 
   .img-p-button {
