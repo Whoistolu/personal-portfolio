@@ -125,6 +125,10 @@ nav {
 .double-button {
   margin-top: 10%;
 }
+#message-validator {
+  font-family: 'Crete Round', serif;
+  font-size: 26px;
+}
 
 .mobile-menu-hidden {
   display: none;
