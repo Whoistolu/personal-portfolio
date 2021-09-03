@@ -356,6 +356,18 @@ p {
   margin-bottom: 1em;
 }
 
+.bttn {
+  box-sizing: border-box;
+  border: 1px solid #979493;
+  color: #3c3a39;
+  font-family: 'Inter', sans-serif;
+  padding: 0.6rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
 #modal .bttn {
   box-sizing: border-box;
   border: 1px solid #979493;
@@ -364,7 +376,6 @@ p {
   font-weight: 600;
   line-height: 20px;
   font-size: 13px;
-  line-height: 16px;
   padding: 0.6rem;
 }
 
@@ -784,19 +795,6 @@ textarea {
 
 .big-ten {
   display: none;
-}
-
-.bttn {
-  box-sizing: border-box;
-  border: 1px solid #979493;
-  color: #3c3a39;
-  font-family: 'Inter', sans-serif;
-  padding: 0.6rem;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  /* margin-top: 20px; */
 }
 
 @media screen and (min-width: 992px) {
