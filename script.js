@@ -117,9 +117,9 @@ SeeProjectButton.forEach((item, i) => {
     languages.forEach((li, s) => {
       li.textContent = projectDetail.technologies[s];
     });
-    const live = windowPop.querySelector('.first-button');
+    const live = windowPop.querySelectorAll('.first-button')[0];
     live.href = projectDetail.live;
-    const source = windowPop.querySelector('.second-button');
+    const source = windowPop.querySelectorAll('.first-button')[1];
     source.href = projectDetail.source;
   });
 });
@@ -139,9 +139,9 @@ SeeCardButton.forEach((item, i) => {
     languages.forEach((li, s) => {
       li.textContent = projectDetail.technologies[s];
     });
-    const live = windowPop.querySelector('.first-button');
+    const live = windowPop.querySelectorAll('.first-button')[0];
     live.href = projectDetail.live;
-    const source = windowPop.querySelector('.second-button');
+    const source = windowPop.querySelectorAll('.first-button')[1];
     source.href = projectDetail.source;
   });
 });
