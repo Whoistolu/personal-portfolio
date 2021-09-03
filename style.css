@@ -47,8 +47,6 @@ nav {
 }
 
 #modal .close {
-  /* padding-right: 0; */
-  /* padding-top: 0.9rem; */
   padding: 14px;
 }
 
@@ -62,8 +60,6 @@ nav {
 }
 
 #modal .image {
-  /* width: 311px; */
-  /* height: 220px; */
   width: 100%;
   object-fit: cover;
   flex-shrink: 1;
@@ -81,7 +77,6 @@ nav {
   margin-top: 24px;
   flex-grow: 0;
   flex-shrink: 0;
-  /* max-height: 100px; */
   overflow: auto;
 }
 
@@ -132,35 +127,6 @@ nav {
   background-color: #f4f1f0;
   color: #5b5957;
 }
-
-/* .second-button {
-  background-color: #ff6b00;
-  padding: 1em 1em;
-  text-decoration: none;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 24px;
-  color: #fff;
-}
-
-.second-button:hover {
-  background-color: #fff5e1;
-  color: #ff6b00;
-  border: 1px solid #f55800;
-  box-sizing: border-box;
-}
-
-.second-button:enabled {
-  background-color: #f55800;
-  color: #fff;
-}
-
-.second-button:disabled {
-  background-color: #f4f1f0;
-  color: #5b5957;
-} */
 
 .double-button {
   display: flex;
@@ -396,8 +362,6 @@ p {
   line-height: 16px;
   padding: 0.6rem;
   font-family: Poppins, sans-serif;
-  
-  /* margin-left: 0.4rem; */
 }
 
 .project-btn {
@@ -837,8 +801,6 @@ textarea {
     flex-shrink: 1;
     flex-grow: 1;
     min-width: 400px;
-    /* height: 448px; */
-    /* max-width: 700px; */
     height: unset;
     object-fit: cover;
   }
@@ -846,7 +808,6 @@ textarea {
   #modal .heading {
     display: flex;
     justify-content: space-between;
-    /* padding-top: 3rem; */
   }
 
   .img-p-button {
