@@ -83,6 +83,7 @@ nav {
   flex-direction: column;
   flex-shrink: 1;
   min-height: 0;
+  flex-basis: 100%;
 }
 
 .p-button {
@@ -805,7 +806,7 @@ textarea {
 
 @media screen and (min-width: 992px) {
   #modal {
-    display: block;
+    display: none;
     position: fixed;
   }
 
