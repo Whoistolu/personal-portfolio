@@ -23,7 +23,19 @@ nav {
   left: 0;
   top: 0;
   bottom: 0;
+  /* padding: 5% 5%; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding: 20px;
   z-index: 200;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: auto;
+ 
+  overflow: auto;
 }
 
 #modal .content {
@@ -62,6 +74,8 @@ nav {
 #modal .image {
   width: 100%;
   object-fit: cover;
+  flex-shrink: 1;
+  height: 100%;
   min-height: 100px;
 }
 
@@ -95,37 +109,11 @@ nav {
   flex-grow: 1;
 }
 
-.first-button {
-  background-color: #ff6b00;
-  padding: 14px;
-  text-decoration: none;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 24px;
-  color: #fff;
-  width: 100%;
+.double-button {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-}
-
-.first-button:hover {
-  background-color: #fff5e1;
-  color: #ff6b00;
-  border: 1px solid transparent;
-  box-sizing: border-box;
-}
-
-.first-button:enabled {
-  background-color: #f55800;
-  color: #fff;
-}
-
-.first-button:disabled {
-  background-color: #f4f1f0;
-  color: #5b5957;
+  gap: 20px;
+  margin-top: 16px;
 }
 
 .double-button {
@@ -356,7 +344,7 @@ p {
   margin-bottom: 1em;
 }
 
-.bttn {
+#modal .bttn {
   box-sizing: border-box;
   border: 1px solid #979493;
   color: #3c3a39;
@@ -839,6 +827,12 @@ textarea {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  .img-p-button .image {
+    width: 100%;
+    height: 448px;
+    object-fit: cover;
   }
 
   .p-button {
