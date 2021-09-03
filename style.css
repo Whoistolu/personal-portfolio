@@ -15,6 +15,19 @@ nav {
   justify-content: center;
 }
 
+.bttn {
+  box-sizing: border-box;
+  border: 1px solid #979493;
+  color: #3c3a39;
+  font-family: 'Inter', sans-serif;
+  padding: 0.6rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
 #modal {
   display: none;
   background-color: white;
@@ -29,7 +42,6 @@ nav {
   margin-right: 16px;
   padding: 20px;
   z-index: 200;
-  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   height: auto;
@@ -93,7 +105,6 @@ nav {
 }
 
 .first-button {
-  padding: 0;
   background-color: #ff6b00;
   padding: 14px;
   text-decoration: none;
@@ -127,14 +138,11 @@ nav {
 }
 
 .double-button {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   gap: 20px;
   margin-top: 16px;
-}
-
-.double-button {
-  width: 100%;
 }
 
 .mobile-menu-hidden {
@@ -365,9 +373,7 @@ p {
   font-weight: 600;
   line-height: 20px;
   font-size: 13px;
-  line-height: 16px;
   padding: 0.6rem;
-  font-family: Poppins, sans-serif;
 }
 
 .project-btn {
@@ -786,19 +792,6 @@ textarea {
 
 .big-ten {
   display: none;
-}
-
-.bttn {
-  box-sizing: border-box;
-  border: 1px solid #979493;
-  color: #3c3a39;
-  font-family: 'Inter', sans-serif;
-  padding: 0.6rem;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  margin-top: 20px;
 }
 
 @media screen and (min-width: 992px) {
