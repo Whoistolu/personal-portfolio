@@ -19,7 +19,6 @@ This milestone consists of two (2) sections:
 
 - HTML
 - CSS
-
 ## Live Demo
 
 [Live Demo Link](https://whoistolu.github.io/personal-portfolio/)
