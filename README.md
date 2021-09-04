@@ -5,8 +5,7 @@
 
 This is my personal portfolio. 
 
-![screenshot](./img/desktop-mobile-popup.png)
-![screenshot](./img/mobile-popup.png)
+![screenshot](./img/form-validation.png)
 
 This is the first milestone for my personal portfolio project.
 A clone of [figma](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=48%3A27)

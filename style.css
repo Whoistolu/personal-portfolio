@@ -797,6 +797,11 @@ textarea {
   display: none;
 }
 
+#validator-message {
+  font-size: 25px;
+  color: red;
+}
+
 @media screen and (min-width: 992px) {
   #modal {
     display: none;
