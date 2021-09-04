@@ -6,6 +6,6 @@ templateForm.addEventListener('submit', (e) => {
     e.preventDefault();
     validatorMessage.textContent = 'Kindly input email in lowercase!';
   } else {
-  validatorMessage.textContent = '';
-    }
+    validatorMessage.textContent = '';
+  }
 });
