@@ -2,7 +2,6 @@ const emailAddress = document.getElementById('mail');
 const fullName = document.getElementById('name');
 const textMessage = document.getElementById('msg');
 const templateForm = document.getElementById('form');
-const validatorMessage = document.getElementById('validator-message');
 templateForm.addEventListener('input', () => {
   const localStorageObject = {
     name: fullName.value,
