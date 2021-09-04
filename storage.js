@@ -11,3 +11,15 @@ templateForm.addEventListener('input', () => {
     };
     localStorage.setItem('templateFormData', JSON.stringify(localStorageObject));
   });
+  
+  const getData = JSON.parse(localStorage.getItem('templateFormData'));
+function prePopulated() {
+  if (getData) {
+    fullName.value = getData.name;
+    emailAddress.value = getData.email;
+    textMessage.value = getData.message;
+    return getData;
+  }
+  return '';
+}
+prePopulated();
