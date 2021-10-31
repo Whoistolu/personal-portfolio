@@ -52,8 +52,8 @@ anchorTagLinks.forEach((link) => {
 
 const details = [
   {
-    name: 'Multi School Stories',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry',
+    name: 'Open-Source Conference Page',
+    description: 'An Open Source web development conference site. It consists of the mobile and desktop versions with navbar, homepage, and buttons. Built with HTML5, CSS3, Javascript.',
     image: 'img/capstone11.png',
     technologies: ['ruby', 'css', 'javascript', 'bootsrap'],
     live: 'https://whoistolu.github.io/open_source_conference_page/index.html',
