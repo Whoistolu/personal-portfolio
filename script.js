@@ -52,20 +52,20 @@ anchorTagLinks.forEach((link) => {
 
 const details = [
   {
-    name: 'Multi School Stories',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry',
-    image: 'img/a.jpg',
+    name: 'Open-Source Conference Page',
+    description: 'An Open Source web development conference site. It consists of the mobile and desktop versions with navbar, homepage, and buttons. Built with HTML5, CSS3, Javascript.',
+    image: 'img/capstone11.png',
     technologies: ['ruby', 'css', 'javascript', 'bootsrap'],
-    live: 'https://whoistolu.github.io/personal-portfolio/',
-    source: 'https://github.com/Whoistolu/personal-portfolio',
+    live: 'https://whoistolu.github.io/open_source_conference_page/index.html',
+    source: 'https://github.com/Whoistolu/open_source_conference_page',
   },
   {
     name: 'Multi School Stories',
     description: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia',
-    image: 'img/e.jpg',
+    image: 'img/leaderboard11.png',
     technologies: ['ruby', 'css', 'javascript', 'bootsrap'],
-    live: 'https://whoistolu.github.io/personal-portfolio/',
-    source: 'https://github.com/Whoistolu/personal-portfolio',
+    live: 'https://whoistolu.github.io/leaderboard/dist/',
+    source: 'https://github.com/Whoistolu/leaderboard',
   },
   {
     name: 'Multi School Stories',
