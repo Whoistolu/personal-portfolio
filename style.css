@@ -418,7 +418,7 @@ p {
   width: 100%;
 }
 
-.professional-contents {
+.professional-contents1 {
   margin-top: -15%;
   height: 70%;
   display: flex;
@@ -428,7 +428,57 @@ p {
   padding-left: 5%;
 }
 
-.professional-h1 {
+.professional-contents2 {
+  margin-top: -15%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-left: 5%;
+}
+
+.professional-content3 {
+  margin-top: -15%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-left: 5%;
+}
+
+.professional-contents4 {
+  margin-top: -15%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-left: 5%;
+}
+
+.professional-contents5 {
+  margin-top: -15%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-left: 5%;
+}
+
+.professional-contents6 {
+  margin-top: -15%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-left: 5%;
+}
+
+/* .professional-h1 {
   display: flex;
   font-family: 'Crete Round', serif;
   font-size: 35px;
@@ -444,7 +494,7 @@ p {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-}
+} */
 
 .professional-btn:enabled {
   background: #f55800;
@@ -1229,7 +1279,7 @@ textarea {
   }
 
   .professional1 {
-    background-image: url(img/desktop1.png);
+    background-image: url(img/budget.png);
     background-repeat: no-repeat;
   }
 
@@ -1239,7 +1289,7 @@ textarea {
   }
 
   .professional3 {
-    background-image: url(img/leaf.png);
+    background-image: url(img/apartment1.png);
     background-repeat: no-repeat;
   }
 
