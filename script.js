@@ -53,11 +53,11 @@ anchorTagLinks.forEach((link) => {
 const details = [
   {
     name: 'Open-Source Conference Page',
-    description: 'An Open Source web development conference site. It consists of the mobile and desktop versions with navbar, homepage, and buttons. Built with HTML5, CSS3, Javascript.',
-    image: 'img/capstone11.png',
-    technologies: ['ruby', 'css', 'javascript', 'bootsrap'],
-    live: 'https://whoistolu.github.io/open_source_conference_page/index.html',
-    source: 'https://github.com/Whoistolu/open_source_conference_page',
+    description: 'A Projest that works on a real live datafrom the SpaceX API. A web application that provides commercial and scientific space travel services.The application allows users to book rockets and join selected space missions.',
+    image: 'img/space2.png',
+    technologies: ['react', 'css', 'javascript', 'bootsrap'],
+    live: 'https://trusting-poitras-39fd6a.netlify.app/',
+    source: 'https://github.com/Whoistolu/Space-Traveler-Hub',
   },
   {
     name: 'BUDGET APP',
