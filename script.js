@@ -60,12 +60,12 @@ const details = [
     source: 'https://github.com/Whoistolu/open_source_conference_page',
   },
   {
-    name: 'Multi School Stories',
-    description: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia',
-    image: 'img/leaderboard11.png',
-    technologies: ['ruby', 'css', 'javascript', 'bootsrap'],
-    live: 'https://whoistolu.github.io/leaderboard/dist/',
-    source: 'https://github.com/Whoistolu/leaderboard',
+    name: 'BUDGET APP',
+    description: 'A Ruby on Rails capstone project that is about a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+    image: 'img/budget2.png',
+    technologies: ['ruby', 'rails', 'css', 'bootsrap'],
+    live: 'https://tolu-transaction.herokuapp.com/users/sign_in',
+    source: 'https://github.com/Whoistolu/budget-app',
   },
   {
     name: 'Multi School Stories',
