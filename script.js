@@ -70,10 +70,10 @@ const details = [
   {
     name: 'Multi School Stories',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry',
-    image: 'img/b.jpg',
+    image: 'img/leaderboard2.png',
     technologies: ['ruby', 'css', 'javascript', 'bootsrap'],
-    live: 'https://whoistolu.github.io/personal-portfolio/',
-    source: 'https://github.com/Whoistolu/personal-portfolio',
+    live: 'https://whoistolu.github.io/leaderboard/dist/',
+    source: 'https://github.com/Whoistolu/leaderboard',
   },
   {
     name: 'Multi School Stories',
