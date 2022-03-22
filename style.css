@@ -412,8 +412,6 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background-image: url(img/placeholder.png);
-  background-repeat: no-repeat;
   height: 400px;
   width: 100%;
 }
@@ -477,24 +475,6 @@ p {
   justify-content: space-around;
   padding-left: 5%;
 }
-
-/* .professional-h1 {
-  display: flex;
-  font-family: 'Crete Round', serif;
-  font-size: 35px;
-  line-height: 44px;
-  color: #fff;
-  width: 100%;
-}
-
-.professional-p {
-  display: flex;
-  justify-content: center;
-  font-family: 'Inter', sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
-} */
 
 .professional-btn:enabled {
   background: #f55800;
@@ -1278,18 +1258,33 @@ textarea {
     width: auto;
   }
 
-  .professional1 {
+  .professional0 {
     background-image: url(img/budget.png);
     background-repeat: no-repeat;
   }
 
+  .professional1 {
+    background-image: url(img/space.png);
+    background-repeat: no-repeat;
+  }
+
   .professional2 {
-    background-image: url(img/leaderboard1.png);
+    background-image: url(img/apartment1.png);
     background-repeat: no-repeat;
   }
 
   .professional3 {
-    background-image: url(img/apartment1.png);
+    background-image: url(img/leaderboard.png);
+    background-repeat: no-repeat;
+  }
+
+  .professional4 {
+    background-image: url(img/p.png);
+    background-repeat: no-repeat;
+  }
+
+  .professional5 {
+    background-image: url(img/bookstore.png);
     background-repeat: no-repeat;
   }
 
