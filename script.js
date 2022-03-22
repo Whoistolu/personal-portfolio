@@ -77,11 +77,11 @@ const details = [
   },
   {
     name: 'Multi School Stories',
-    description: 'To popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia fnfifdfdifhfio fjnkfvkfvfkjfdf jkfndfkdfklgfjkdfnkkjkl jkdfsk',
-    image: 'img/a.jpg',
+    description: 'A projectthat is about building a web application based on an external API. I selected an API that provides data about Pokemon and then build the webapp around it.',
+    image: 'img/p2.png',
     technologies: ['ruby', 'css', 'javascript', 'bootsrap'],
-    live: 'https://whoistolu.github.io/personal-portfolio/',
-    source: 'https://github.com/Whoistolu/personal-portfolio',
+    live: 'https://zealous-jang-8bec9e.netlify.app/',
+    source: 'https://github.com/Whoistolu/capstone-module-2',
   },
   {
     name: 'Multi School Stories',
